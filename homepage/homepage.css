@@ -1,0 +1,44 @@
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+header{
+    background-color: #149777;
+    margin-top: -7.6px;
+    margin-left: -7.6px;
+    margin-right: -7px;
+}
+nav{
+    display: flex;
+}
+.head{
+    color: #fff;
+}
+.bangla{
+    color: #fff;
+    border: 1px solid #007168;
+    font-size: 12px;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.post{
+    background-color: #ffc800;
+    color: #000;
+    border-radius: 5px;
+}
+.all_bangladesh{
+    background-color: #10846f;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 4px 12px 8px 8px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
