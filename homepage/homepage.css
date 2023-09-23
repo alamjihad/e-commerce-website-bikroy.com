@@ -38,18 +38,18 @@ nav{
     border-radius: 30px;
     padding: 7px 17px 9px 17px;
     font-size: 14px;
-    margin-bottom: 16px;
+    margin-bottom: 17px;
     display: flex;
     flex-direction: row;
     margin-left: -22px;
-    margin-top: 19px;
+    margin-top: -1px;
 }
 .input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 7vh;
-    height: 28vh;
+    margin-top: 6.7vh;
+    height: 23vh;
 }
 #input{
     width: 100%;
@@ -58,16 +58,16 @@ nav{
     overflow: visible;
     border: none;
     height: 9vh;
-    width: 110vh;
+    width: 111vh;
     border-top-left-radius: 30px ;
     border-bottom-left-radius: 30px ;
-    margin-left: -16px;
+    margin-left: -14px;
     font-size: 16px;
     color: lightgray;
 }
 .magnefyne{
     background-color: #fff;
-    padding-right: 4px;
+    padding-right: 3.3px;
     padding-left: 29px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -77,8 +77,186 @@ nav{
     background-color: #ffc800;
     border: none;
     counter-reset: #673500;
-    padding: 13px;
+    padding: 12.5px;
     padding-top: 18px;
     padding-bottom: 18px;
     border-radius: 50%;
+}
+.browse{
+    font-family: inherit;
+    font-size: 14px;
+    margin-left: 161.3px;
+    margin-top: 26.7px;
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 195px;
+    margin-right: 143px;
+    margin-top: 40px;
+}
+.all{
+    display: flex;
+    padding-bottom: 12vh;
+}
+.icon{
+    padding-top: 7px;
+    padding-right: 20px;
+}
+.carec{
+    color: #2f3432;
+    font-size: 16px;
+}
+.num{
+    font-size: 12px;
+    color: #707676;
+}
+.medium{
+    display: flex;
+    box-shadow: ;
+    margin-left: 200px;
+    margin-right: 190px;
+    border: 1px solid black;
+    border-radius: 10px;
+} 
+.money{
+    display: flex;
+    line-height: 19px;
+    height: 31vh;
+    padding-right:27px;
+}
+.h{
+    color: #000000;
+    line-height: 28px;
+    /* font-weight: 800; */
+    display: inline-block;
+    font-size: 20px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+}
+.sell{
+    color: #424e4e;
+    font-size: 14px;
+}
+.free{
+    color: #673500;
+    background-color: #ffc800;
+    padding: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    margin-top: 20px;
+}
+.jobs{
+    padding-left: 25px;
+    border-left: 2px solid lightgray;
+}
+.job{
+    background-color: blue;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.j{
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.hire{
+    color: #424e4e;
+    font-size: 14px;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+}
+.more{
+    margin-top: 19px;
+    background-color: #0074ba;
+    border: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    width: 50%;
+}
+.main{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 197px;
+    margin-right: 189px;
+}
+.one,
+.two,
+.three,
+.four{
+    width: 21%;
+    background-color: #f3f6f5;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 20vh;
+}
+.about{
+    color: #707676;
+    font-size: 16px;
+    line-height: 1.71428571;
+}
+.bikroy{
+    margin-left: 197px;
+    margin-right: 188px;
+    color: gray;
+}
+.div{
+    height: 2px;
+    width: 101.1%;
+    margin-left: -8px;
+    background-color: #007168;
+}
+.show{
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 195px;
+}
+.down{
+    color: #424e4e;
+    font-size: 14px;
+}
+.fb{
+    display: flex;
+}
+.t{
+    color: #3b5999;
+}
+.d{
+    margin-right: 80px;
+}
+.footer{
+    display: flex;
+    margin-left: 197px;
+    margin-top: 17px;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+a{
+    color: blue;
+    display: inline-block;
+}
+.di{
+    background-color: 3px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
