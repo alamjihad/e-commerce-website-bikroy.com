@@ -5,7 +5,7 @@ header{
     background-color: #149777;
     margin-top: -7.6px;
     margin-left: -7.6px;
-    margin-right: -7px;
+    margin-right: -8.5px;
 }
 nav{
     display: flex;
@@ -150,6 +150,24 @@ nav{
     width: 70%;
     margin-top: 20px;
 }
+#modal {
+    display: block;
+    visibility: hidden;
+}
+counting.pop-up{
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+.pop-up{
+    display: none;
+    margin-left: 197px;
+    margin-right: 193px;
+}
+.counting #modal:checked ~ .pop-up{
+    display: block;
+    color: #707676;
+}
 .jobs{
     padding-left: 25px;
     border-left: 2px solid lightgray;
@@ -161,6 +179,17 @@ nav{
     padding-left: 5px;
     padding-right: 7px;
     font-size: 18px;
+}
+.i{
+    display: flex;
+    margin-top: 3px;
+}
+.i1{
+    height: 45px;
+    padding-right: 15px;
+}
+.i2{
+    height: 45px;
 }
 .j{
     display: flex;
@@ -221,11 +250,24 @@ nav{
     margin-left: -8px;
     background-color: #007168;
 }
+.div2{
+    height: 1px;
+    width: 74.5%;
+    margin-left: 197px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .show{
     color: gray;
     margin-top: 15px;
     margin-bottom: 20px;
     margin-left: 195px;
+}
+.less{
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .down{
     color: #424e4e;
@@ -233,6 +275,9 @@ nav{
 }
 .fb{
     display: flex;
+}
+.a{
+    padding-top: 20px;
 }
 .t{
     color: #3b5999;
@@ -244,12 +289,15 @@ nav{
     display: flex;
     margin-left: 197px;
     margin-top: 17px;
+    align-items: flex-start;
 }
 .from{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 90px;
+    margin-right: 60px;
+    margin-top: 20px;
+    line-height: 1.8;
 }
 a{
     color: blue;
@@ -259,4 +307,13 @@ a{
     background-color: 3px solid red;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.cd{
+    margin-left: 195px;
+    font-size: 15px;
 }
