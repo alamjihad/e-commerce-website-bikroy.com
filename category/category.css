@@ -1,0 +1,238 @@
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+header{
+    background-color: #149777;
+    margin-top: -7.6px;
+    margin-left: -7.6px;
+    margin-right: -8.5px;
+}
+nav{
+    display: flex;
+}
+.head{
+    color: #fff;
+    display: flex;
+}
+.bangla{
+    color: #fff;
+    border: 1px solid #007168;
+    font-size: 12px;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.post{
+    background-color: #ffc800;
+    color: #673500;
+    border-radius: 5px;
+    font-weight: 900;
+}
+/* .all_bangladesh{
+    background-color: #10846f;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px 17px 9px 17px;
+    font-size: 14px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -22px;
+    margin-top: -1px;
+} */
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.7vh;
+    height: 23vh;
+} 
+#input{
+    width: 100%;
+    background-color: #fff;
+    outline: 0;
+    overflow: visible;
+    height: 7vh;
+    border: 1px solid gray;
+    border-right:none;
+    width: 60vh;
+    margin-left: 217px;
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+    font-size: 16px;
+    color: lightgray;
+}
+ .magnefyne{
+    background-color: #fff;
+    padding-right: 3.3px;
+    padding-left: 31px;
+    border: 1px solid gray;
+    border-left: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+} 
+.button2{
+    margin-top: 4px;
+    background-color: #ffc800;
+    border: none;
+    counter-reset: #673500;
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+} 
+.firt{
+    display: flex;
+    margin-left: 170px;
+    margin-top: 37px;
+}
+.first{
+    color: #007168;
+}
+.second{
+    color: #007168;
+    padding-left: 125px;
+}
+.para{
+    font-size: 14px;
+}
+#modal {
+    display: block;
+    visibility: hidden;
+}
+.counting.pop-up{
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+.pop-up{
+    display: none;
+    margin-left: 167px;
+    margin-right: 193px;
+}
+.counting #modal:checked ~ .pop-up{
+    display: block;
+    color: #707676;
+}
+.counting #modal:checked ~ .show{
+    display: none;;
+}
+.counting #modal:checked ~ .bikroy{
+    display: none;
+}
+.jobs{
+    padding-left: 25px;
+    border-left: 2px solid lightgray;
+}
+.job{
+    background-color: blue;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.i{
+    display: flex;
+    margin-top: 3px;
+}
+.i1{
+    height: 45px;
+    padding-right: 15px;
+}
+.i2{
+    height: 45px;
+}
+.j{
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.about{
+    color: #707676;
+    font-size: 14px;
+    line-height: 1.71428571;
+}
+.bikroy{
+    margin-left: 169px;
+    margin-right: 169px;
+    color: grey;
+}
+.div{
+    height: 2px;
+    width: 101.1%;
+    margin-left: -8px;
+    background-color: #007168;
+}
+.div2{
+    height: 1px;
+    width: 80.5%;
+    margin-left: 167px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.show{
+    color: gray;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 169px;
+}
+.less{
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.down{
+    color: #424e4e;
+    font-size: 14px;
+}
+.fb{
+    display: flex;
+}
+.s{
+    color: #3b5999;
+    font-size: 14px;
+}
+.t{
+    color: #3b5999;
+}
+.d{
+    margin-right: 80px;
+}
+.footer{
+    display: flex;
+    margin-left: 167px;
+    margin-top: 17px;
+    align-items: flex-start;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+a{
+    color: blue;
+    display: inline-block;
+}
+.di{
+    background-color: 3px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.cd{
+    margin-left: 195px;
+    font-size: 15px;
+}

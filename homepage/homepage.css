@@ -10,10 +10,32 @@ header{
 nav{
     display: flex;
 }
+.see{
+    display: none;
+}
+.hum{
+    display: none;
+}
+.do{
+    padding-left: 155px;
+}
+.do2{
+    display: none;
+}
 .head{
     color: #fff;
     display: flex;
 }
+.header{
+    color: #fff;
+    display: flex;
+}
+.heade{
+    color: #fff;
+    display: flex;
+    margin-left: 39px;
+}
+
 .bangla{
     color: #fff;
     border: 1px solid #007168;
@@ -30,6 +52,15 @@ nav{
     color: #673500;
     border-radius: 5px;
     font-weight: 900;
+}
+.chat{
+    display: flex;
+    margin-left: 395px;
+}
+.chat2{
+    font-size: 12px;
+    padding-top: -13px;
+    padding-left: 9px;
 }
 .all_bangladesh{
     background-color: #10846f;
@@ -88,6 +119,13 @@ nav{
     margin-left: 161.3px;
     margin-top: 26.7px;
 }
+.brows{
+    font-family: inherit;
+    font-size: 14px;
+    margin-left: 161.3px;
+    margin-top: 26.7px;
+    margin-left: 197px;
+}
 .category{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -100,6 +138,10 @@ nav{
     padding-bottom: 12vh;
 }
 .icon{
+    padding-top: 7px;
+    padding-right: 20px;
+}
+.iconic{
     padding-top: 7px;
     padding-right: 20px;
 }
@@ -116,7 +158,6 @@ nav{
     box-shadow: ;
     margin-left: 200px;
     margin-right: 190px;
-    border: 1px solid black;
     border-radius: 10px;
 } 
 .money{
@@ -170,7 +211,6 @@ counting.pop-up{
 }
 .jobs{
     padding-left: 25px;
-    border-left: 2px solid lightgray;
 }
 .job{
     background-color: blue;
@@ -279,6 +319,9 @@ counting.pop-up{
 .a{
     padding-top: 20px;
 }
+.b{
+    padding-top: 20px;
+}
 .t{
     color: #3b5999;
 }
@@ -316,4 +359,340 @@ a{
 .cd{
     margin-left: 195px;
     font-size: 15px;
+}
+.ban{
+    display: none;
+}
+.he{
+    display: none;
+}
+.div3{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px)
+{
+    .head,
+    .bangla,
+    .post{
+        display: none;
+    }
+    header{
+        height: 121vh;
+        width: 392vh;
+    }
+    .chat{
+        margin-left: 652px;
+    }
+    .chat2{
+        display: none;
+    }
+    .heade{
+        margin-left: 25px;
+    }
+    .do{
+        display: none;
+    }
+    .do2{
+        display: block;
+        padding: 9px;
+    }
+    .hum{
+        display: block;
+        color: #ffffff;
+        font-size: 45px;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    .message{
+        font-size: 30px;
+    }
+    .navigation{
+        padding-top: 17px;
+    }
+    .all_bangladesh{
+        font-size: 29px;
+        margin-top: 5px;
+        padding-top: 11px;
+    }
+    #input{
+        height: 30vh;
+        margin-top: 20px;
+        width: 330vh;
+        font-size: 24px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    .magnefyne{
+        padding: 10px;
+        padding-top: 12px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        height: 23vh;
+        margin-top: 20px;
+    }
+    .browse{
+        font-size: 24px;
+        color: gray;
+        padding-top: 20px;
+        margin-left: 13px;
+    }
+    b{
+        margin-left: 0;
+    }
+    .se{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .see{
+        padding-top: 50px;
+        font-size: 24px;
+        color: #0074ba;
+        display: block;
+        margin-left: 620px;
+    }
+    section::-webkit-scrollbar{
+        display: none;
+      }
+    .category{
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        margin-left: 0;
+        margin-right: -500px;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(16,1fr);
+    }
+    .all{
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .icon{
+        padding-top: 7px;
+        padding-left: 31px;
+        padding-bottom: 39px;
+    }
+    .iconic{
+        padding-top: 7px;
+        padding-left: 63px;
+        padding-bottom: 39px;
+    }
+    .carec{
+        color: #2f3432;
+        font-size: 24px;
+        padding-left: 2px;
+        padding-bottom: 9px;
+    }
+    .num{
+        font-size: 24px;
+        color: #707676;
+    }
+    .fa-2xl{
+        font-size: 5rem;
+    }
+    .medium{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .money{
+        display: inline-block;
+        margin-left: 0;    
+    }
+    .img{
+        display: flex;
+        padding-left: 230px;
+        height: 180px;
+    }
+    .h{
+        font-size: 30px;
+        margin-left: 200px;
+        font-weight: 900;
+    }
+    .sell{
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 43px;
+    }
+    .sp{
+        padding-left: 70px;
+        padding-bottom: 20px;
+    }
+    .j{
+        margin-top: 160vh;
+        margin-left: 170px;
+    }
+    .free{
+        font-size: 26px;
+        padding: 20px;
+        border-radius: 50px;
+        margin-left: 130px;
+    }
+    .so{
+        padding-left: 63px;
+        padding-bottom: 20px;
+    }
+    .s{
+        margin-left: -60px;
+    }
+    .hire{
+        font-size: 24px;
+    }
+    .more{
+        font-size: 24px;
+        padding: 20px;
+        border-radius: 40px;
+        margin-left: 130px;
+    }
+    .brows{
+        margin-left: 13px;
+        font-size: 24px;
+        color: gray;
+    }
+    .one,
+    .two,
+    .three,
+    .four{
+        display: inline-block;
+        height: 80vh;
+        font-size: 26px;
+        width: 571vh;
+        margin-right: 30px;
+        padding: 20px;
+        
+    }
+    .main{
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        margin-left: 15px;
+        margin-right: -350px;
+        margin-top: 40px;
+    }
+    .gr{
+        display: grid;
+        grid-template-columns: repeat(3);
+    }
+    .about{
+        font-size: 28px;
+        margin-top: 120px;
+        margin-left: -170px;
+        margin-right: -500px;
+    }
+    .cl{
+        font-size: 26px;
+        margin-left: -170px;
+        margin-right: -600px;
+    }
+    .show{
+        font-size: 26px;
+        margin-left: 420px;
+    }
+    .less{
+        font-size: 26px;
+        margin-left: 280px;
+
+    }
+    .b{
+        font-size: 26px;
+        margin-left: -170px;
+        margin-right: -680px;
+    }
+    .div{
+        height: 4px;
+        width: 187%;
+    }
+    .from{
+        display: none;
+    }
+    .d{
+        margin-left: 170px;
+    }
+    .down{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .i{
+        margin-top: 20px;
+        margin-left: -100px;
+    }
+    .fb{
+        margin-top: 80px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .i1{
+        height: 70px;
+    }
+    .i2{
+        height: 70px;
+    }
+    .conn{
+        display: none;
+    }
+    .cd{
+        display: none;
+    }
+    .t{
+        margin-top: -13px;
+    }
+    .la{
+        display: none;
+    }
+    .he{
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight: 600;
+        padding-left: 9px;
+        color: #0074ba;
+        display: block;
+    }
+    .ban{
+        display: block;
+        margin-top: 40px;
+        border: 1px solid #007168;
+        padding: 7px;
+        font-size: 26px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 101px;
+        margin-right: 255px;
+        color: #0074ba;
+        border-radius: 7px;
+    }
+    .ot{
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .t{
+        font-size: 26px;
+    }
+    .div2{
+        display: none;
+    }
+    .div3{
+        display: block;
+    }
+    .div3{
+        height: 1px;
+        width: 238.1%;
+        margin-left: -375px;
+        background-color: gray;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
