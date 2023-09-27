@@ -7,6 +7,10 @@ header{
     margin-left: -7.6px;
     margin-right: -8.5px;
 }
+.chat2,
+.message{
+    cursor: pointer;
+}
 nav{
     display: flex;
 }
@@ -18,6 +22,7 @@ nav{
 }
 .do{
     padding-left: 155px;
+    cursor: pointer;
 }
 .do2{
     display: none;
@@ -29,6 +34,7 @@ nav{
 .header{
     color: #fff;
     display: flex;
+    cursor: pointer;
 }
 .heade{
     color: #fff;
@@ -52,6 +58,7 @@ nav{
     color: #673500;
     border-radius: 5px;
     font-weight: 900;
+    cursor: pointer;
 }
 .chat{
     display: flex;
@@ -74,6 +81,7 @@ nav{
     flex-direction: row;
     margin-left: -22px;
     margin-top: -1px;
+    cursor: pointer;
 }
 .input{
     display: flex;
@@ -112,6 +120,7 @@ nav{
     padding-top: 18px;
     padding-bottom: 18px;
     border-radius: 50%;
+    cursor: pointer;
 }
 .browse{
     font-family: inherit;
@@ -136,6 +145,20 @@ nav{
 .all{
     display: flex;
     padding-bottom: 12vh;
+}
+.c,
+.fb,
+.t,
+.show,
+.less,
+.i1,
+.i2,
+.more,
+.gr,
+.free,
+.icon,
+.text{
+    cursor: pointer;
 }
 .icon{
     padding-top: 7px;

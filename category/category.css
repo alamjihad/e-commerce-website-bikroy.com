@@ -7,6 +7,58 @@ header{
     margin-left: -7.6px;
     margin-right: -8.5px;
 }
+.date{
+    border: 1px solid #149777;
+    display: inline-block;
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #2f3432;
+    border-radius: 3px;
+    margin-top: 13px;
+}
+.c2{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.al{
+    padding-top: 20px;
+    color: blue;
+    font-size: 14px;
+}
+.mobi{
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.m{
+    padding-left: 15px;
+}
+.cat{
+    font-size: 12px;
+    color: gray;
+}
+.type{
+    margin-top: 15px;
+}
+.u{
+    display: flex;
+    margin-top: 11px;
+}
+h6{
+    margin: 0;
+}
+.filt{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 11px;
+}
+.fil{
+    font-size: 12px;
+    color: #2f3432;
+    margin-top: 23px;
+}
 nav{
     display: flex;
 }
@@ -24,6 +76,12 @@ nav{
     padding: 7px 12px;
     border-radius: 4px;
     cursor: pointer;
+}
+.content{
+    margin-left: 10px;
+}
+hr{
+    width: 75%;
 }
 .post{
     background-color: #ffc800;
@@ -136,6 +194,9 @@ nav{
     padding-right: 7px;
     font-size: 18px;
 }
+.filter{
+    margin-bottom: 23px;
+}
 .i{
     display: flex;
     margin-top: 3px;
@@ -235,4 +296,9 @@ a{
 .cd{
     margin-left: 195px;
     font-size: 15px;
+}
+.a{
+    height: 10px solid red;
+    width: 100%;
+    margin-top: 10px;
 }
