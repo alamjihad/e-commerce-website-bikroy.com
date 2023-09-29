@@ -1,0 +1,273 @@
+body{
+    font-family: 'Open Sans', sans-serif;   
+    position: relative;
+    display: inline-block;
+    background-color: #f3f6f5 !important;
+}
+header{
+    background-color: #149777;
+    margin-top: -7.6px;
+    margin-left: -7.6px;
+    margin-right: -8.5px;
+}
+.k{
+    font-size: 14px;
+    color: gray;
+}
+.tk{
+    font-size: 14px;
+    color: #007168;
+    font-weight: 600;
+}
+.date{
+    border: 1px solid lightgray;
+    display: inline-block;
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #2f3432;
+    border-radius: 3px;
+    margin-bottom: 29px;
+    margin-left: 13px;
+    margin-top: -30px;
+}
+.da{
+    border: 1px solid lightgray;
+    display: inline-block;
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #2f3432;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.next{
+    color: gray;
+    text-align: center;
+    padding-top: 30px;
+}
+.al{
+    padding-top: 20px;
+    color: blue;
+    font-size: 14px;
+    display: inline-block;
+}
+.mobi{
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.m{
+    padding-left: 20px;
+}
+.j{
+    font-size: 14px;
+    color: gray;
+    display: inline-block;
+    padding-left: 20px;
+}
+.cat{
+    font-size: 12px;
+    color: gray;
+    display: inline-block;
+}
+.u{
+    display: flex;
+    margin-top: 11px;
+}
+.m{
+    display: inline-block;
+}
+h6{
+    margin: 0;
+}
+.filt{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 11px;
+}
+.pic{
+    display: inline-block;
+}
+.tex{
+    display: inline-block;
+    padding-left: 15px;
+}
+nav{
+    display: flex;
+}
+.head{
+    color: #fff;
+    display: flex;
+}
+.bangla{
+    color: #fff;
+    border: 1px solid #007168;
+    font-size: 12px;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.content{
+    padding-top: 20px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+hr{
+    width: 100%;
+}
+.post{
+    background-color: #ffc800;
+    color: #673500;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.para{
+    font-size: 14px;
+}
+
+.jobs{
+    padding-left: 25px;
+    border-left: 2px solid lightgray;
+}
+.job{
+    background-color: blue;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.filter{
+    margin-bottom: 23px;
+}
+.i{
+    display: flex;
+    margin-top: 3px;
+}
+.i1{
+    height: 45px;
+    padding-right: 15px;
+}
+.i2{
+    height: 45px;
+}
+.j{
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.about{
+    color: #707676;
+    font-size: 14px;
+    line-height: 1.71428571;
+}
+.bikroy{
+    margin-left: 169px;
+    margin-right: 169px;
+    color: grey;
+}
+.div{
+    height: 2px;
+    width: 101.1%;
+    margin-left: -8px;
+    background-color: #007168;
+}
+.div2{
+    height: 1px;
+    width: 80.5%;
+    margin-left: 167px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.show{
+    color: gray;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 19px;
+}
+.less{
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.down{
+    color: #424e4e;
+    font-size: 14px;
+}
+.fb{
+    display: flex;
+}
+.s{
+    color: #3b5999;
+    font-size: 14px;
+}
+.t{
+    color: #3b5999;
+}
+.d{
+    margin-right: 80px;
+}
+.footer{
+    display: flex;
+    margin-left: 167px;
+    margin-top: 17px;
+    align-items: flex-start;
+}
+a{
+    color: blue;
+    display: inline-block;
+}
+.di{
+    background-color: 3px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.cd{
+    margin-left: 195px;
+    font-size: 15px;
+}
+.llast{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ss1{
+    font-size: 12px;
+    color: #2f3432;
+}
+.mb2{
+    font-weight: 600;
+    display: inline-block;
+    font-size: 14px;
+    color: #2f3432;
+    margin-left: 50px;
+}
+.hum{
+    display: none;
+}
+.co{
+    font-size: 12px;
+    padding-top: -13px;
+    padding-left: 9px;
+}
+.message{
+    display: none;
+}
+.do{
+    padding-left: 155px;
+}
