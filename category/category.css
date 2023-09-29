@@ -647,36 +647,42 @@ a{
     }
     .navigation{
         width: 10%;
-        height: 20vh;
+        height: 33.3vh;
     }
     .first{
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
-        padding-right: 230px;
+        padding-right:80px;
+        margin-top: -18px;
     }
     .second{
         display: flex;
-        font-size: 30px;
-        padding-right: 320px;
+        font-size: 20px;
+        padding-right: 170px;
+        margin-top: -18px;
     }
     .t1{
-        font-size: 24px;
+        font-size: 14px;
         color: #2f3432;
-        padding-left: 30px;
+        padding-left: 10px;
     }
     #input{
-        height: 5vh;
-        margin-top: -60px;
-        width: 18vh;
-        font-size: 24px;
-        margin-left: -955px;
+        height: 11.3vh;
+        width: 125vh;
+        font-size: 14px;
+        margin-left: -530px;
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
+        margin-top: -100px;
     }
     .third{
         display: block;
-        font-size: 30px;
+        font-size: 20px;
         color: #007168;
+        margin-top: -24px;
+    }
+    header{
+        width: 600px;
     }
     .content{
         margin-left: 0;
@@ -686,27 +692,32 @@ a{
         padding-top: 12px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
-        height: 4.3vh;
+        height: 4.7vh;
+        margin-top: -100px;
     }
     .button2{
-        padding: 10px;
+        padding: 8px;
+        margin-top: -15px;
     }
     .mb2{
-        font-size: 20px;
+        font-size: 12px;
+        font-weight: 600;
         text-align: left;
         margin-left: 0;
+        margin-top: -10px;
     }
     .b{
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 300;
         padding-top: 20px;
         margin-left: 0;
     }
     .slider{
-        top:17.5%;
-        width: 1000px;
-        margin-left: -180px;
-        height: 600px;
+        top:11%;
+        width: 475px;
+        margin-left: -270px;
+        height: 400px;
+        left: 70%;
     }
     .sort,
     .ho,
@@ -719,11 +730,11 @@ a{
         display: none;
     }
     .images{
-        width: 1200px;
-        height: 600px;
+        width: 700px;
+        height: 450px;
         padding-left: 70px;
         display: flex;
-        animation: slide-in 50s infinite;
+        animation: slide-in 20s infinite;
       }
       @keyframes slide-in{
         0%{
@@ -733,53 +744,90 @@ a{
           transform: translateX(0%);
         }
         50%{
-          transform: translateX(-1014%);
+          transform: translateX(-55%);
         }
         /* 60%{
           transform: translateX(-250%);
         } */
         75%{
-            transform: translateX(-2045%);
+            transform: translateX(-110%);
         }
         100%{
-            transform: translateX(-2565%);
+            transform: translateX(-170%);
         }
     
     } 
-    .o{
-        margin-top: 710px;
+    .l{
+        display: none;
+    }
+    .counting{
         margin-left: 0;
-        width: 200%;
+    }
+    .n1{
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .div{
+        width: 84%;
+    }
+    .new{
+        margin-top: 20px;
+    }
+    .about{
+        margin-left: -160px;
+    }
+    .para{
+        margin-left: -160px;
+    }
+    .o{
+        margin-top: 430px;
+        margin-left: 0;
+        width: 126%;
     }
     .text{
         font-size: 30px;
     }
     .k{
-        font-size: 24px;
+        font-size: 14px;
     }
     .tk{
-        font-size: 24px;
+        font-size: 14px;
     }
     .mem{
-        font-size: 16px;
+        font-size: 10px;
+        padding-top: -10px;
+        margin-top: 0;
     }
     .app{
-        font-size: 24px;
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 0;
     }
     .d{
         margin-left: 170px;
     }
     .down{
-        font-size: 25px;
+        font-size: 14px;
         padding-bottom: 20px;
+    }
+    .from{
+        display: none;
+    }
+    .i1{
+        height: 39px;
+    }    
+    .i2{
+        height: 40px;
     }
     .i{
         margin-top: 20px;
-        margin-left: -100px;
+        margin-left: 0;
     }
     .fb{
-        margin-top: 80px;
-        font-size: 26px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 15px;
         font-weight: 600;
     }
     .conn{
@@ -807,7 +855,7 @@ a{
         font-weight: 600;
     }
     .t{
-        font-size: 24px;
+        font-size: 14px;
         font-weight: 600;
     }
     .div2{
@@ -828,22 +876,30 @@ a{
         display: none;
     }
     .p1{
-        font-size: 24px;
+        font-size: 14px;
         color: #2f3432;
         font-weight: 700;
     }
     .ano{
         display: block;
         text-align: center;
-        font-size: 24px;
+        font-size: 14px;
         border: 1px solid #007168;
         padding: 3px;
-        padding-left: 2px;
     }
     .amo{
         display: block;
-        font-size: 24px;
+        font-size: 14px;
         color: #0074ba;
         text-align: center;
+        margin-bottom: 20px;
+    }
+    .conne{
+        display: none;
+    }
+    .footer{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
