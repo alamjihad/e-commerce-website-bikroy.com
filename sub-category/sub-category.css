@@ -73,7 +73,7 @@ hr{
 }
 .div2{
     height: 1px;
-    width: 80.5%;
+    width: 77%;
     margin-left: 167px;
     background-color: gray;
     margin-top: 30px;
@@ -91,6 +91,7 @@ hr{
 }
 .d{
     margin-right: 80px;
+    font-size: 14px;
 }
 .footer{
     display: flex;
@@ -117,8 +118,8 @@ hr{
     padding-bottom: 50px;
 }
 .cd{
-    margin-left: 195px;
-    font-size: 15px;
+    margin-left: 165px;
+    font-size: 14px;
 }
 .a{
     height: 10px solid red;
@@ -130,8 +131,8 @@ hr{
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-left: 170px;
-    margin-right: 190px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .c5{
     font-size: 14px;
@@ -226,7 +227,8 @@ hr{
     margin-right: 170px;
 }
 .p1{
-    margin-left: 63px;
+    font-weight: 600;
+    color: #2f3432;
 }
 .p3{
     font-size: 22px;
@@ -239,6 +241,7 @@ hr{
     font-size: 14px;
     margin-top: 0;
     padding-top: 5px;
+    color: #707676;
 }
 .firs{
     display: flex;
@@ -250,6 +253,11 @@ hr{
 }
 .tw{
     margin-top: 9px;
+}
+.mi{
+    background-color: #e7edee;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .on,
 .two{
@@ -264,9 +272,9 @@ hr{
     color: grey;
 }
 .sale{
-    border: 1px solid grey;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    padding-top: 14px;
+    padding-bottom: 14px;
     padding-left: 10px;
 }
 .tip{
@@ -285,6 +293,7 @@ hr{
     display: flex;
     flex-direction: column;
     border-radius: 3px;
+    border: 1px solid lightgray;
     }
 .safe{
     border: 1px solid  #0074ba;
@@ -294,6 +303,7 @@ hr{
 }
 .i21{
     display: flex;
+    margin-top: 15px;
 }
 .le1{    
     color: grey;
@@ -309,7 +319,15 @@ hr{
     margin-left: 290px;
 }
 .xt{
-    margin-right: 15px;
+    width: 100%;
+    margin-right: 10px;
+}
+.show_more{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: grey;
+    text-align: center;
 }
 .saf,
 .tip{
@@ -341,8 +359,49 @@ hr{
     font-size: 24px;
     margin-left: 19px;
 }
-
-
+.description{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: grey;
+    margin-left: 20px;
+}
+.description2{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-left: 20px;
+    color: grey;
+    margin-top: 20px;
+}
+.pri{
+    color: grey;
+    font-size: 14px;
+    margin-left: 60px;
+    padding-top: 100px;
+}
+.a1{
+    color: lightgrey;
+    margin-left: 20px;
+}
+.oe{
+    color: #673500;
+    background-color: #ffc800;
+    border: 1px #ffc800;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.gr{
+    color: grey;
+    font-size: 15px;
+    padding-left: 20px;
+}
 
 
 
