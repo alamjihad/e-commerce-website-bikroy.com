@@ -12,6 +12,7 @@ header{
 }
 nav{
     display: flex;
+    height: 75px;
 }
 .head{
     color: #fff;
@@ -20,13 +21,16 @@ nav{
 .bangla{
     color: #fff;
     border: 1px solid #007168;
-    font-size: 12px;
-    margin-left: 23px;
+    font-size: 14px;
+    margin-left: 33px;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 22px;
     padding: 7px 12px;
     border-radius: 4px;
     cursor: pointer;
+}
+.pi2{
+    display: none;
 }
 hr{
     width: 100%;
@@ -43,6 +47,9 @@ hr{
     align-items: center;
     margin-top: 6.7vh;
     height: 23vh;
+}
+.for{
+    display: none;
 }
 .i{
     display: flex;
@@ -117,6 +124,12 @@ hr{
     justify-content: space-between;
     padding-bottom: 50px;
 }
+.call_chat{
+    display: none;
+}
+.hr{
+    display: none;
+}
 .cd{
     margin-left: 165px;
     font-size: 14px;
@@ -150,15 +163,15 @@ hr{
     display: none;
 }
 .co{
-    font-size: 12px;
+    font-size: 13px;
     padding-top: -13px;
     padding-left: 9px;
 }
-.message{
+.message2{
     display: none;
 }
 .do{
-    padding-left: 155px;
+    padding-left: 185px;
 }
 .do2{
     display: none;
@@ -174,7 +187,7 @@ hr{
 }
 .oo{
     display: flex;
-    margin-left: 395px;
+    margin-left: 460px;
 }
 .line{
     font-size: 12px;
@@ -374,6 +387,9 @@ hr{
     color: grey;
     margin-top: 20px;
 }
+.message3{
+    display: none;
+}
 .pri{
     color: grey;
     font-size: 14px;
@@ -402,11 +418,30 @@ hr{
     font-size: 15px;
     padding-left: 20px;
 }
-
+.first2,
+.p32,
+.po2{
+    display: none;
+}
+.m{
+    display: none;
+}
 
 
 
 @media (max-width:600px){
+    body{
+        
+        background-color: #ffffff;
+    }
+    .popular,
+    .three,
+    .footer{
+        background-color: #ffffff;
+    }
+    .content{
+        background-color: #ffffff;
+    }
     .message,
     .hum{
         display: block;
@@ -422,16 +457,17 @@ hr{
         padding-left: 20px;
     }
     .do{
-        padding-left: 0;
+        padding-left: 12px;
         display: block;
         padding-right: 0;
     }
     .navigation{
         width: 10%;
-        height: 33.3vh;
+        height: 35vh;
     }
     header{
         width: 600px;
+        height: 55px;
     }
     .head,
     .bangla,
@@ -440,6 +476,15 @@ hr{
     }
     .l{
         display: none;
+    }
+    .popular{
+        display: flex;
+        justify-content: space-between;
+        color: #2f3432;
+        font-size: 14px;
+        font-weight: 600;
+        padding-top:15px;
+        padding-bottom:15px;
     }
     .div{
         width: 84%;
@@ -479,6 +524,7 @@ hr{
     .t{
         font-size: 14px;
         font-weight: 600;
+        text-align: center;
     }
     .div2{
         display: none;
@@ -490,6 +536,7 @@ hr{
         font-size: 14px;
         color: #2f3432;
         font-weight: 700;
+        text-align: center;
     }
     .ano{
         display: block;
@@ -498,19 +545,185 @@ hr{
         border: 1px solid #007168;
         padding: 3px;
     }
+    #t2{
+        padding-bottom: 100px;
+    }
     .amo{
         display: block;
         font-size: 14px;
-        color: #0074ba;
-        text-align: center;
+        color: #0074ba;    
         margin-bottom: 20px;
+    }
+    .pi{
+        margin-top: 0;
+        height: 250px;
+        width: 175px;
+        overflow: hidden;
+        display: none;
+    }   
+    .pi2{
+        display: block;
+        margin-top: 2px;
+    }
+    .time{
+        margin-left: 375px;
+    }
+    .time2{
+        margin-left: 365px;
+    }
+    .call_chat{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: fixed;
+        bottom: 7px;
+    }
+    .chat{
+        border:none;
+        background-color:  #149777;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 8px 15px;
+        margin-left: 5px;
+        padding-left: 115px;
+        border-radius: 4px;
+        padding-right: 117px;
+    }
+    .i21{
+        display: none;
+    }
+    .call{
+        border:none;
+        background-color: #149777;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 8px 15px;
+        margin-right: 5px;
+        padding-left: 115px;
+        padding-right: 117px;
+        border-radius: 4px;
+    }
+    .content{
+        background-color: #ffffff;
+    }
+    .elements{
+        grid-template-columns: repeat(1,1fr);
     }
     .conne{
         display: none;
     }
     .footer{
-        display: inline-block;
         margin-left: 0;
         margin-right: 0;
+    }
+    .message2{
+        padding-top: 14px;
+        display: block;
+        color: #ffffff;
+        font-size: 24px;
+        padding-left: 15px;
+    }
+    .message3{
+        padding-top: 14px;
+        display: block;
+        color: #ffffff;
+        font-size: 24px;
+        padding-left: 19px;
+    }
+    .oo{
+        margin-left:  305px;
+    }
+    .p3,
+    .po,
+    .xt,
+    .tw,
+    .line{
+        display: none;
+    }
+    .mi{
+        margin: 0;
+        margin-right: -88px;
+    }
+    .hard{
+        display: inline-block;
+        margin-top: -21px;
+    }
+    .main_content{
+        margin: 0;
+    }
+    .first2,
+    .p32,
+    .po2{
+        display: block;
+    }
+    .p32{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .po2{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .hr{
+        display: block;
+        color: grey;
+    }
+    .tk2{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .for{
+        display: block;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .u{
+        margin-left: 215px;
+        text-decoration: dotted;
+        color: #000000;
+    }
+    .u1{
+        margin-left: 240px;
+        text-decoration: dotted;
+        color: #000000;
+    }
+    .u2{
+        margin-left: 238px;
+        text-decoration: dotted;
+        color: #000000;
+    }
+    .u3{
+        margin-left: 201px;
+        text-decoration: dotted;
+        color: #000000;
+    }
+    .u4{
+        padding-top: 10px;
+        margin-left: -10px;
+    }
+    .des{
+        padding-bottom: 10px;
+        margin-left: -12px;
+    }
+    .three{
+        display: flex;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+    .oe{
+        width: 115%;
+        margin-left: 7px;
+    }
+    .pri{
+        margin-left: 170px;
+    }
+    .gr{
+        padding-left: 236px;
+    }
+    .a1{
+        margin-left: 10px;
+    }
+    .m{
+        display: block;
+        background-color: #e7edee;
     }
 }
