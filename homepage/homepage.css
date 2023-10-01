@@ -493,7 +493,7 @@ a{
         overflow-x: auto;
         overflow-y: hidden;
         white-space: nowrap;
-        margin-left: 0;
+~     margin-left: 0;
         margin-right: -500px;
         margin-top: 40px;
         display: grid;
