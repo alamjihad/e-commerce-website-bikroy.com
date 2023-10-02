@@ -55,11 +55,11 @@ header{
     margin-left: 0;
 }
 .slider{
-    height: 300px;
+    height: 310px;
     width: 450px;
     position: absolute;
     border-radius: 4px;
-    top: 10.5%;
+    top: 9.5%;
     left: 48%;
     transform: translate(-40%,-40%);
     /* box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3); */
@@ -84,7 +84,7 @@ header{
   }
   .images{
     width: 200px;
-    height: 470px;
+    height: 410px;
     padding-left: 70px;
     display: flex;
     animation: slide-in 30s infinite;
@@ -177,6 +177,10 @@ header{
     padding: 8px;
     border-radius: 3px;
 }
+.oraga:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+} 
 .sort{
     display: inline-block;
 }
@@ -193,7 +197,7 @@ header{
 }
 .conne{
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 14px;
     color: #424e4e;
     font-weight: 700;
     letter-spacing: 0.01em;
@@ -362,7 +366,7 @@ hr{
 }
 #c{
     padding-left: 13px;
-    margin-top: 0;
+    margin-top: -1px;
 }
 .counting.pop-up{
     visibility: hidden;
@@ -371,7 +375,7 @@ hr{
 }
 .pop-up{
     display: none;
-    margin-left: 167px;
+    margin-left: 161px;
     margin-right: 193px;
 }
 .counting #modal2:checked ~ .pop-up{
@@ -406,11 +410,11 @@ hr{
     margin-top: 8px;
 }
 .i1{
-    height: 45px;
+    height: 40px;
     padding-right: 15px;
 }
 .i2{
-    height: 45px;
+    height: 40px;
 }
 .j{
     display: flex;
@@ -423,7 +427,7 @@ hr{
     line-height: 1.71428571;
 }
 .bikroy{
-    margin-left: 169px;
+    margin-left: 161px;
     margin-right: 169px;
     color: grey;
 }
@@ -431,15 +435,15 @@ hr{
     height: 2px;
     width: 101.1%;
     margin-left: -8px;
-    background-color: #007168;
+    background-color: #149777;
 }
 .div2{
     height: 1px;
-    width: 80.5%;
+    width: 74%;
     margin-left: 167px;
     background-color: gray;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .show{
     color: gray;
@@ -451,8 +455,9 @@ hr{
 .show2{
     color: gray;
     margin-top: -20px;
-    margin-bottom: 10px;
-    margin-left: 169px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    margin-left: 161px;
     font-size: 14px;
 }
 .less{
@@ -461,7 +466,6 @@ hr{
     margin-bottom: 20px;
     font-size: 14px;
 }
-
 .less2{
     color: gray;
     margin-top: 15px;
@@ -474,6 +478,8 @@ hr{
 }
 .fb{
     display: flex;
+    margin-top: -3px;
+    margin-bottom: 10px;
 }
 .s{
     color: #0074ba;
@@ -485,11 +491,11 @@ hr{
     color: #3b5999;
 }
 .d{
-    margin-right: 80px;
+    margin-right: 60.3px;
 }
 .footer{
     display: flex;
-    margin-left: 167px;
+    margin-left: 161px;
     margin-top: 17px;
     align-items: flex-start;
 }
@@ -515,11 +521,11 @@ a{
 .copy{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 18px;
 }
 .cd{
-    margin-left: 195px;
-    font-size: 15px;
+    margin-left: 165px;
+    font-size: 14px;
 }
 .a{
     width: 100%;
@@ -563,7 +569,7 @@ a{
 .ml{
     height: 152vh;
     margin-left: 25px;
-    margin-top: -113px;
+    margin-top: -93px;
     width: 1px;
     background-color: gray;
 }
@@ -673,6 +679,7 @@ a{
     color: #424e4e;
     font-size: 14px;
     font-weight: 700;
+    padding-top: 10px;
 }
 .t2{
     color: #0074ba;
