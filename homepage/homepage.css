@@ -151,10 +151,14 @@ nav{
 }
 .brows{
     font-family: inherit;
-    font-size: 14px;
-    margin-left: 161.3px;
-    margin-top: 26.7px;
-    margin-left: 197px;
+    display: inline-block;
+    font-weight: 800;
+    color: #2f3432;
+    font-size: 15px;
+    padding-left: -15px;
+    margin-top: 47.7px;
+    margin-left: 181px;
+    margin-bottom: 30px;
 }
 .category{
     display: grid;
@@ -167,6 +171,11 @@ nav{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-bottom: 12vh;
+}
+.gr{
+    font-size: 15px;
+    color: #424e4e;
+    line-height: 1.8;
 }
 .c,
 .fb,
@@ -217,6 +226,12 @@ nav{
     padding-top: 7px;
     padding-right: 20px;
     margin-left: -4px;
+}
+.conn{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #424e4e;
+    font-weight: 700;
 }
 .carec{
     padding-top: -25px;
@@ -316,11 +331,11 @@ counting.pop-up{
 }
 .i{
     display: flex;
-    margin-top: 3px;
+    margin-top: 6px;
 }
 .i1{
     height: 45px;
-    padding-right: 15px;
+    padding-right: 18px;
 }
 .i2{
     height: 45px;
@@ -357,38 +372,55 @@ counting.pop-up{
 .main{
     /* display: grid;
     grid-template-columns: repeat(4,1fr); */
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-left: 197px;
-    margin-right: 189px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.lc{
+    color: #2f3432;
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 3.5;
 }
 .one,
 .two,
 .three,
 .four{
-    width: 21%;
+    width: 22%;
     background-color: #f3f6f5;
     padding: 5px;
-    padding-left: 10px;
     border-radius: 5px;
-    height: 20vh;
+    height: 24vh;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .about{
+    margin-top: 55px;
     color: #707676;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.71428571;
+    font-weight: bold;
+    margin-bottom: -12px;
 }
 .bikroy{
-    margin-left: 197px;
-    margin-right: 188px;
+    margin-left: 181px;
+    margin-right: 167px;
     color: gray;
 }
+.cl{
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    line-height: 1.8;
+}
 .div{
-    height: 2px;
+    height: 3px;
     width: 101.1%;
     margin-left: -8px;
-    background-color: #007168;
+    background-color: #10846f;
 }
 .div2{
     height: 1px;
@@ -399,10 +431,13 @@ counting.pop-up{
     margin-bottom: 30px;
 }
 .show{
-    color: gray;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    margin-left: 195px;
+    color: #707676;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 18px;
+    margin-left: 181px;
+    padding-bottom: 8px;
+    letter-spacing: 0.03em;
 }
 .less{
     color: gray;
@@ -411,7 +446,10 @@ counting.pop-up{
 }
 .down{
     color: #424e4e;
-    font-size: 14px;
+    font-size: 15px;
+    margin-top: -10px;
+    letter-spacing: 0.01em;
+    
 }
 .fb{
     display: flex;
@@ -423,14 +461,17 @@ counting.pop-up{
     padding-top: 20px;
 }
 .t{
-    color: #3b5999;
+    color: #1441f4;
+    font-size: 15px;
+    font-weight: 700;
 }
 .d{
+    margin-top: -3px;
     margin-right: 80px;
 }
 .footer{
     display: flex;
-    margin-left: 197px;
+    margin-left: 181px;
     margin-top: 17px;
     align-items: flex-start;
 }
@@ -468,6 +509,12 @@ a{
 }
 .div3{
     display: none;
+}
+.ot{
+    font-size: 15px;
+    font-weight: 700;
+    color: #424e4e;
+    letter-spacing: 0.03em;
 }
 
 
