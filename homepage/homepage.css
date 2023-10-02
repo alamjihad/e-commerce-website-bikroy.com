@@ -69,6 +69,7 @@ nav{
     color: #673500;
     border-radius: 5px;
     cursor: pointer;
+    letter-spacing: 0.03em;
 }
 .chat{
     display: flex;
@@ -176,6 +177,7 @@ nav{
     font-size: 15px;
     color: #424e4e;
     line-height: 1.8;
+    margin-top: -7px;
 }
 .c,
 .fb,
@@ -232,6 +234,7 @@ nav{
     font-size: 15px;
     color: #424e4e;
     font-weight: 700;
+    letter-spacing: 0.01em;
 }
 .carec{
     padding-top: -25px;
@@ -251,7 +254,7 @@ nav{
     margin-right: 181px;
     border-radius: 10px;
     letter-spacing: 0.03em;
-    height: 30.5vh;
+    height: 31vh;
 } 
 .money{
     display: flex;
@@ -310,12 +313,15 @@ counting.pop-up{
 }
 .pop-up{
     display: none;
-    margin-left: 197px;
+    margin-left: 181px;
     margin-right: 193px;
 }
 .counting #modal:checked ~ .pop-up{
     display: block;
     color: #707676;
+}
+.counting #modal:checked ~ .show{
+    display: none;
 }
 .jobs{
     padding-left: 25px;
@@ -331,7 +337,7 @@ counting.pop-up{
 }
 .i{
     display: flex;
-    margin-top: 6px;
+    margin-top: 8px;
 }
 .i1{
     height: 45px;
@@ -365,6 +371,7 @@ counting.pop-up{
     font-weight: 600;
     width: 50%;
     margin-left: -10px;
+    letter-spacing: 0.03em;
 }
 .explore{
     padding-left: 10px;
@@ -399,12 +406,23 @@ counting.pop-up{
     padding-left: 10px;
 }
 .about{
-    margin-top: 55px;
+    margin-top: 20px;
     color: #707676;
     font-size: 17px;
     line-height: 1.71428571;
     font-weight: bold;
     margin-bottom: -12px;
+}
+#about{
+    font-size: 15px;
+}
+#cl{
+    margin-bottom: -5px;
+}
+.c{
+    color: #0074ba;
+    font-size: 15px;
+    letter-spacing: 0.03em;
 }
 .bikroy{
     margin-left: 181px;
@@ -417,17 +435,17 @@ counting.pop-up{
     line-height: 1.8;
 }
 .div{
-    height: 3px;
+    height: 2px;
     width: 101.1%;
     margin-left: -8px;
     background-color: #10846f;
 }
 .div2{
     height: 1px;
-    width: 74.5%;
-    margin-left: 197px;
-    background-color: gray;
-    margin-top: 30px;
+    width: 75.5%;
+    margin-left: 181px;
+    background-color: lightgrey;
+    margin-top: 25px;
     margin-bottom: 30px;
 }
 .show{
@@ -441,14 +459,14 @@ counting.pop-up{
 }
 .less{
     color: gray;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 30   px;
 }
 .down{
     color: #424e4e;
     font-size: 15px;
     margin-top: -10px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.03em;
     
 }
 .fb{
@@ -465,6 +483,14 @@ counting.pop-up{
     font-size: 15px;
     font-weight: 700;
 }
+.t9{
+    color: #1441f4;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    letter-spacing: 0.03em;
+    margin-top: -10px;
+}
 .d{
     margin-top: -3px;
     margin-right: 80px;
@@ -479,13 +505,30 @@ counting.pop-up{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 60px;
-    margin-top: 20px;
-    line-height: 1.8;
+    margin-right: 42px;
+    margin-top: 5px;
+    color: #424e4e;
+    line-height: 1.6    ;
+}
+.mfb{
+    font-size: 15px;
+}
+#sup{
+    margin-right: 70px;
+    margin-left: 9px;
+}
+#abou{
+    margin-right: 80px;
+}
+#from{
+    margin-left: -20px;
 }
 a{
     color: blue;
     display: inline-block;
+}
+.la{
+    margin-top: -6px;
 }
 .di{
     background-color: 3px solid red;
@@ -495,11 +538,13 @@ a{
 .copy{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .cd{
-    margin-left: 195px;
+    margin-left: 179px;
     font-size: 15px;
+    margin-top: -10px;
+    letter-spacing: 0.02em;
 }
 .ban{
     display: none;
@@ -515,6 +560,7 @@ a{
     font-weight: 700;
     color: #424e4e;
     letter-spacing: 0.03em;
+    margin-top: 20px;
 }
 
 
@@ -796,6 +842,9 @@ a{
     .t{
         margin-top: -13px;
     }
+    .t9{
+        margin-top: -13px;
+    }
     .la{
         display: none;
     }
@@ -826,6 +875,9 @@ a{
         font-weight: 600;
     }
     .t{
+        font-size: 26px;
+    }
+    .t9{
         font-size: 26px;
     }
     .div2{
