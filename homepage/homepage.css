@@ -52,7 +52,9 @@ nav{
     display: flex;
     margin-left: 39px;
 }
-
+.location #modal:checked ~ .modal-btn{
+    display: none;
+} 
 .bangla{
     color: #fff;
     border: 1px solid #007168;
@@ -460,7 +462,7 @@ counting.pop-up{
 .less{
     color: gray;
     margin-top: 35px;
-    margin-bottom: 30   px;
+    margin-bottom: 30px;
 }
 .down{
     color: #424e4e;
