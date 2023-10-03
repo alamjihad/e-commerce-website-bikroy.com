@@ -12,7 +12,7 @@ header{
 }
 nav{
     display: flex;
-    height: 75px;
+    height: 70px;
 }
 .head{
     color: #fff;
@@ -20,12 +20,14 @@ nav{
 }
 .bangla{
     color: #fff;
+    padding-top: 3px;
     border: 1px solid #007168;
-    font-size: 14px;
-    margin-left: 33px;
-    margin-top: 15px;
-    margin-bottom: 22px;
-    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-left: 27px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    padding: 7px 13.5px;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -53,14 +55,14 @@ hr{
 }
 .i{
     display: flex;
-    margin-top: 3px;
+    margin-top: 12px;
 }
 .i1{
-    height: 45px;
+    height: 43px;
     padding-right: 15px;
 }
 .i2{
-    height: 45px;
+    height: 43px;
 }
 .j{
     display: flex;
@@ -76,25 +78,34 @@ hr{
     height: 2px;
     width: 101.1%;
     margin-left: -8px;
-    background-color: #007168;
+    background-color: #149777;
 }
 .div2{
     height: 1px;
-    width: 77%;
-    margin-left: 167px;
-    background-color: gray;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-right: 166px;
+    padding-left: 190px;
+    margin-left: -7px;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.ulti{
+    margin: 0;
+    background-color: #ffffff;
 }
 .down{
     color: #424e4e;
-    font-size: 14px;
+    font-size: 15px;
+    padding-bottom: 10px;
 }
 .fb{
     display: flex;
 }
 .t{
     color: #3b5999;
+    font-weight: 700;
+    font-size: 17px;
 }
 .d{
     margin-right: 80px;
@@ -102,16 +113,20 @@ hr{
 }
 .footer{
     display: flex;
-    margin-left: 167px;
-    margin-top: 17px;
+    padding-left: 191px;
+    margin-top: 0;
+    padding-top: 17px;
     align-items: flex-start;
+    background-color: #ffffff;
+    margin-left: -7px;
+    margin-right: -7px;
 }
 .from{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 0;
     line-height: 1.8;
 }
 .di{
@@ -123,6 +138,11 @@ hr{
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
+    background-color: #ffffff;
+    margin-top: -1px;
+    margin-left: -7px;
+    margin-right: -7px;
+    padding-left: 3px;
 }
 .call_chat{
     display: none;
@@ -131,21 +151,27 @@ hr{
     display: none;
 }
 .cd{
-    margin-left: 165px;
-    font-size: 14px;
+    margin-left: 185px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
 .a{
-    height: 10px solid red;
     width: 100%;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 17px;
+}
+#a{
+    color: #0074ba;
 }
 .l{
     margin-top: 50px;
     display: grid;
+    padding-top: 35px;
+    padding-bottom: 35px;
     grid-template-columns: repeat(4,1fr);
-    margin-left: 160px;
-    margin-right: 160px;
+    padding-left: 178px;
+    padding-right: 158px;
+    background-color: #f3f5f6;
 }
 .c5{
     font-size: 14px;
@@ -164,14 +190,16 @@ hr{
 }
 .co{
     font-size: 13px;
-    padding-top: -13px;
-    padding-left: 9px;
+    padding-top: 1px;
+    padding-left: 16px;
+    cursor: pointer;
 }
 .message2{
     display: none;
 }
 .do{
-    padding-left: 185px;
+
+    padding-left: 180px;
 }
 .do2{
     display: none;
@@ -187,18 +215,21 @@ hr{
 }
 .oo{
     display: flex;
-    margin-left: 460px;
+    margin-left: 435px;
 }
 .line{
-    font-size: 12px;
+    margin-left: 20px;
+    font-size: 13px;
     color: #424e4e;
-    margin-top: 31px;
-    margin-bottom: 19px;
+    margin-top: 37px;
+    margin-bottom: 22px;
 }
 .similar{
     color: #424e4e;
     background-color: #ffffff;
-    border-radius: 3px}
+    border-radius: 3px;
+    margin-left: 19px;
+}
 .si{
     color: #2f3432;
     padding-top: 10px;
@@ -240,21 +271,25 @@ hr{
     margin-right: 170px;
 }
 .p1{
-    font-weight: 600;
-    color: #2f3432;
+    font-weight: 800;
+    font-size: 15px;
+    color: #424e4e;
 }
 .p3{
+    margin-top: 9px;
     font-size: 22px;
+    margin-left: 4px;
 }
 .first{
     display: flex;
     flex-direction: column;
 }
 .po{
-    font-size: 14px;
-    margin-top: 0;
+    font-size: 15px;
+    margin-top: -10px;
     padding-top: 5px;
     color: #707676;
+    margin-left: 3px;
 }
 .firs{
     display: flex;
@@ -264,8 +299,27 @@ hr{
 .two{
     padding-left: 30px;
 }
+.on:hover~.card{
+    display: block;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    left: 90;
+    margin-left: -80px;
+    top: 50;
+    color: #424e4e;
+    display: none;
+}
+.ee{
+    display: flex;
+    margin: 8px;
+}
 .tw{
-    margin-top: 9px;
+    margin-top: 16px;
+    margin-right: 5px;
 }
 .mi{
     background-color: #e7edee;
@@ -274,15 +328,27 @@ hr{
 }
 .on,
 .two{
+    margin-top: 10px;
     color: grey;
+    cursor: pointer;
+}
+.sold{
+    color: #707676;
+    font-size: 15px;
+}
+.sale{
+    display: flex;
+    flex-direction: column;
 }
 .content{
     background-color: #ffffff;
+    margin-left: 20px;
+    border-radius: 3px;
 }
 .sh,
 .sa{
-    font-size: 14px;
-    color: grey;
+    font-size: 15px;
+    color: #424e4e;
 }
 .sale{
     border-bottom: 1px solid grey;
@@ -292,15 +358,17 @@ hr{
 }
 .tip{
     color: #0074ba;
-    font-size: 14px;
+    font-size: 15px;
+    padding-left: 20px;
 }
 .meet{
     color: grey;
     font-size: 14px;
 }
 .s{
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 5px;
 }
 .te{
     display: flex;
@@ -313,6 +381,8 @@ hr{
     margin-top: 10px;
     padding-right: 70px;
     border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .i21{
     display: flex;
@@ -418,6 +488,10 @@ hr{
     font-size: 15px;
     padding-left: 20px;
 }
+#t2{
+    color: #0074ba;
+    font-weight: 400;
+}
 .first2,
 .p32,
 .po2{
@@ -426,6 +500,15 @@ hr{
 .m{
     display: none;
 }
+.conne{
+    color: #424e4e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+
+
 
 
 
