@@ -12,7 +12,7 @@ header{
 }
 nav{
     display: flex;
-    height: 70px;
+    height: 79px;
 }
 .head{
     color: #fff;
@@ -22,12 +22,12 @@ nav{
     color: #fff;
     padding-top: 3px;
     border: 1px solid #007168;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.6;
-    margin-left: 27px;
-    margin-top: 17px;
-    margin-bottom: 17px;
-    padding: 7px 13.5px;
+    margin-left: 31px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    padding: 7px 14.5px;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -58,11 +58,16 @@ hr{
     margin-top: 12px;
 }
 .i1{
-    height: 43px;
+    height: 52px;
     padding-right: 15px;
 }
 .i2{
-    height: 43px;
+    height: 52px;
+}
+.ad{
+    font-size: 17px;
+    color: #707676;
+    padding-top: 10px;
 }
 .j{
     display: flex;
@@ -82,8 +87,8 @@ hr{
 }
 .div2{
     height: 1px;
-    padding-right: 166px;
-    padding-left: 190px;
+    padding-right: 195px;
+    padding-left: 220px;
     margin-left: -7px;
     background-color: #ffffff;
     padding-top: 30px;
@@ -96,7 +101,7 @@ hr{
 }
 .down{
     color: #424e4e;
-    font-size: 15px;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 .fb{
@@ -108,8 +113,9 @@ hr{
     font-size: 17px;
 }
 .d{
-    margin-right: 80px;
+    margin-right: 70px;
     font-size: 14px;
+    margin-left: 28px;
 }
 .footer{
     display: flex;
@@ -125,9 +131,15 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 64.5px;
     margin-top: 0;
     line-height: 1.8;
+}
+#fro{
+    margin-right: 82px;
+}
+#orm{
+    margin-right: 97px;
 }
 .di{
     background-color: 3px solid red;
@@ -151,8 +163,10 @@ hr{
     display: none;
 }
 .cd{
-    margin-left: 185px;
-    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-left: 215px;
+    font-size: 17px;
     letter-spacing: 0.03em;
 }
 .a{
@@ -169,37 +183,40 @@ hr{
     padding-top: 35px;
     padding-bottom: 35px;
     grid-template-columns: repeat(4,1fr);
-    padding-left: 178px;
-    padding-right: 158px;
+    padding-left: 202px;
+    padding-right: 188px;
     background-color: #f3f5f6;
 }
 .c5{
-    font-size: 14px;
-    color: #2f3432;
+    font-size: 17px;
+    color: #424e4e;
 }
 .llast{
     margin-left: 10px;
     margin-right: 10px;
 }
 .ss1{
-    font-size: 12px;
-    color: #2f3432;
+    font-size: 15px;
+    color: #646666;
 }
 .hum{
     display: none;
 }
 .co{
-    font-size: 13px;
-    padding-top: 1px;
-    padding-left: 16px;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-left: 18px;
     cursor: pointer;
+}
+.message{
+    padding-top: 3px;
 }
 .message2{
     display: none;
 }
 .do{
 
-    padding-left: 180px;
+    padding-left: 202px;
 }
 .do2{
     display: none;
@@ -218,43 +235,54 @@ hr{
     margin-left: 435px;
 }
 .line{
-    margin-left: 20px;
-    font-size: 13px;
+    margin-left: 44px;
+    font-size: 15px;
     color: #424e4e;
-    margin-top: 37px;
+    margin-top: 42px;
     margin-bottom: 22px;
+}
+#i{
+    margin-top: 25px;
+    margin-left: 16px;
+    width: 97%;
 }
 .similar{
     color: #424e4e;
     background-color: #ffffff;
     border-radius: 3px;
-    margin-left: 19px;
+    margin-left: 42px;
+    margin-right: 22px;
 }
 .si{
     color: #2f3432;
-    padding-top: 10px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 2px;
+    padding-top: 20px;
     margin-left: 15px;
+    font-size: 22px;
     display: block;
 }
 .time{
-    margin-left: 175px;
-    margin-top: 20px;
+    margin-left: 300px;
+    margin-top: 0;
 }
 .time2{
-    margin-left: 190px;
-    margin-top: 20px;
+    margin-left: 280px;
+    margin-top: 0;
 }
 .h{
     color: #2f3432;
 }
 .taka{
-    color: #007168;
-    font-weight: 600;
+    color: #009877;
+    font-weight: 700;
+    font-size: 17px;
 }
 .element{
     display: flex;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 65px;
     margin-bottom: 30px;
 }
 .text{
@@ -266,34 +294,57 @@ hr{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.li1{
+    bottom:32.6%;
+    left: 14%;
+    margin-left: 6px;
+    margin-right: 10px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+}
+.le21{
+    display: flex;
+    margin-left: 85%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.li2{
+    bottom:32.6%;
+    left: 84.5%;
+    margin-left: 10px;
+    margin-right: 6px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+}
 .main_content{
     margin-left: 170px;
     margin-right: 170px;
 }
 .p1{
-    font-weight: 800;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 17px;
     color: #424e4e;
 }
 .p3{
-    margin-top: 9px;
-    font-size: 22px;
-    margin-left: 4px;
+    margin-top: 12px;
+    font-size: 23px;
+    margin-left: 5px;
 }
 .first{
     display: flex;
     flex-direction: column;
 }
 .po{
-    font-size: 15px;
-    margin-top: -10px;
+    font-size: 17px;
+    margin-top: -7px;
     padding-top: 5px;
     color: #707676;
-    margin-left: 3px;
+    margin-left: 6px;
 }
 .firs{
     display: flex;
-    justify-content: space-between;
     margin: 10px;
 }
 .two{
@@ -320,11 +371,13 @@ hr{
 .tw{
     margin-top: 16px;
     margin-right: 5px;
+    padding-left: 610px;
 }
 .mi{
     background-color: #e7edee;
-    margin-left: 10px;
+    margin-left: 16px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 .on,
 .two{
@@ -334,7 +387,7 @@ hr{
 }
 .sold{
     color: #707676;
-    font-size: 15px;
+    font-size: 17px;
 }
 .sale{
     display: flex;
@@ -342,16 +395,18 @@ hr{
 }
 .content{
     background-color: #ffffff;
-    margin-left: 20px;
+    margin-left: 44px;
     border-radius: 3px;
+    margin-right: 23px;
 }
 .sh,
 .sa{
-    font-size: 15px;
+    font-size: 17px;
+    
     color: #424e4e;
 }
 .sale{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #e7edee;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 10px;
@@ -363,12 +418,12 @@ hr{
 }
 .meet{
     color: grey;
-    font-size: 14px;
+    font-size: 17px;
 }
 .s{
-    font-size: 15px;
-    font-weight: 800;
-    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 7px;
 }
 .te{
     display: flex;
@@ -377,12 +432,13 @@ hr{
     border: 1px solid lightgray;
     }
 .safe{
-    border: 1px solid  #0074ba;
+    border: 1px solid  #4cb0c1;
     margin-top: 10px;
     padding-right: 70px;
-    border-radius: 3px;
+    border-radius: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 20vh;
 }
 .i21{
     display: flex;
@@ -402,14 +458,16 @@ hr{
     margin-left: 290px;
 }
 .xt{
+    margin-top: 10px;
     width: 100%;
     margin-right: 10px;
 }
 .show_more{
-    margin-top: 20px;
+    margin-top: 45px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 17px;
     color: grey;
+    margin-left: 150px;
     text-align: center;
 }
 .saf,
@@ -420,7 +478,10 @@ hr{
     padding-top: 20px;
 }
 .tip{
+    font-size: 17px;
+    padding-left: 39px;
     padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 .xt{
     position: sticky;
@@ -433,14 +494,16 @@ hr{
     display: flex;
 }
 .pi{
+    
     margin-left: 150px;
     margin-right: 150px;
     display: inline-block;
 }
 .tk2{
     color: #009877;
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 19px;
+    padding-bottom: 15px;
 }
 .description{
     display: flex;
@@ -469,6 +532,13 @@ hr{
 .a1{
     color: lightgrey;
     margin-left: 20px;
+    position: absolute;
+    width: 72.5%;
+    margin-top: 0;
+}
+.three{
+    margin-top: 30px;
+    padding-bottom: 12px;
 }
 .oe{
     color: #673500;
@@ -480,17 +550,22 @@ hr{
     border-radius: 3px;
     margin-left: 20px;
     margin-bottom: 25px;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 5px;
+    font-weight: 900;
 }
 .gr{
-    color: grey;
-    font-size: 15px;
-    padding-left: 20px;
+    color: #424e4e;
+    font-size: 17px;
+    padding-left: 25px;
+}
+.go{
+    font-size: 20px;
 }
 #t2{
     color: #0074ba;
     font-weight: 400;
+    padding-bottom: 18px;
 }
 .first2,
 .p32,
@@ -502,9 +577,23 @@ hr{
 }
 .conne{
     color: #424e4e;
-    font-weight: 800;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 17px;
 }
+.pri,
+.des,
+.u4{
+    font-size: 17px;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
 
 
 
