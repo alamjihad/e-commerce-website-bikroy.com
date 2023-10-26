@@ -106,7 +106,6 @@ nav{
     height: 22.2vh;
 }
 #input{
-    width: 100%;
     background-color: #fff;
     outline: 0;
     overflow: visible;
@@ -602,20 +601,20 @@ a{
     }
     .do2{
         display: block;
-        padding: 9px;
+        padding: 3px;
     }
     .hum{
         display: block;
         color: #ffffff;
-        font-size: 45px;
-        padding-left: 30px;
-        padding-top: 10px;
+        font-size: 23px;
+        padding-left: 35px;
+        padding-top: 15px;
     }
     .message{
         font-size: 30px;
     }
     .navigation{
-        padding-top: 17px;
+        padding-top: 20px;
     }
     .all_bangladesh{
         font-size: 29px;

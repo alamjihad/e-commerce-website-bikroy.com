@@ -87,9 +87,9 @@ header{
     height: 410px;
     padding-left: 70px;
     display: flex;
-    animation: slide-in 30s infinite;
+  /*  animation: slide-in 30s infinite;*/
   }
-  @keyframes slide-in{
+ /* @keyframes slide-in{
     0%{
       transform: translateX(0);
     }
@@ -98,18 +98,17 @@ header{
     }
     50%{
       transform: translateX(-214%);
-    }
+    }*/
     /* 60%{
       transform: translateX(-250%);
     } */
-    75%{
+    /*75%{
         transform: translateX(-445%);
     }
     100%{
         transform: translateX(-665%);
     }
-
-}  
+}  */
 .images img{
   transition: all 0.15s ease;
 } 
@@ -720,6 +719,7 @@ a{
     }
     .message{
         padding-left: 20px;
+        display: block;
     }
     .do{
         padding-left: 0;
@@ -727,8 +727,8 @@ a{
         padding-right: 0;
     }
     .navigation{
-        width: 10%;
-        height: 33.3vh;
+        width: 8.3%;
+        height: 17.5vh;
     }
     .first{
         font-size: 20px;
@@ -748,13 +748,13 @@ a{
         padding-left: 10px;
     }
     #input{
-        height: 11.3vh;
-        width: 125vh;
+        height: 5.7vh;
+        width: 40vh;
         font-size: 14px;
-        margin-left: -530px;
+        margin-left: -570px;
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
-        margin-top: -100px;
+        margin-top: -110px;
     }
     .third{
         display: block;
@@ -763,7 +763,7 @@ a{
         margin-top: -24px;
     }
     header{
-        width: 600px;
+        width: 50%;
     }
     .content{
         margin-left: 0;
@@ -773,12 +773,14 @@ a{
         padding-top: 12px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
-        height: 4.7vh;
-        margin-top: -100px;
+        height: 2.2vh;
+        margin-top: -110px;
     }
     .button2{
+        margin-left: 10px;
         padding: 8px;
-        margin-top: -15px;
+        margin-right: 0;
+        margin-top: -60px;
     }
     .mb2{
         font-size: 12px;
@@ -817,7 +819,7 @@ a{
         display: flex;
         animation: slide-in 20s infinite;
       }
-      @keyframes slide-in{
+    /*  @keyframes slide-in{
         0%{
           transform: translateX(0);
         }
@@ -830,14 +832,14 @@ a{
         /* 60%{
           transform: translateX(-250%);
         } */
-        75%{
+       /* 75%{
             transform: translateX(-110%);
         }
         100%{
             transform: translateX(-170%);
         }
     
-    } 
+    } */
     .l{
         display: none;
     }
