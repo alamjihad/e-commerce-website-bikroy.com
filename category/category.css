@@ -748,7 +748,7 @@ a{
         padding-left: 10px;
     }
     #input{
-        height: 5.7vh;
+        height: 5.4vh;
         width: 40vh;
         font-size: 14px;
         margin-left: -570px;
@@ -763,7 +763,7 @@ a{
         margin-top: -24px;
     }
     header{
-        width: 50%;
+        width: 54%;
     }
     .content{
         margin-left: 0;
@@ -773,14 +773,14 @@ a{
         padding-top: 12px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
-        height: 2.2vh;
+        height: 1.8vh;
         margin-top: -110px;
     }
     .button2{
-        margin-left: 10px;
+        margin-left: 24px;
         padding: 8px;
-        margin-right: 0;
-        margin-top: -60px;
+        margin-right: -12px;
+        margin-top: -20px;
     }
     .mb2{
         font-size: 12px;
@@ -788,6 +788,9 @@ a{
         text-align: left;
         margin-left: 0;
         margin-top: -10px;
+    }
+    .oraga{
+        width: 50%;
     }
     .b{
         font-size: 12px;
