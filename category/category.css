@@ -201,6 +201,9 @@ header{
     font-weight: 700;
     letter-spacing: 0.01em;
 }
+.pg{
+    display: none;
+}
 .type{
     margin-top: 15px;
 }
@@ -724,6 +727,9 @@ a{
     #mso{
         padding-left: 95px;
     }
+    .tw{
+        display: none;
+    }
     .ml,
     #ttt{
         display: none;
@@ -784,6 +790,9 @@ a{
         margin-top: 0;
         width: 74.9%;
     }
+    #pic{
+        height: 80px;
+    }
     .magnefyne{
         padding: 15px;
         padding-top: 9px;
@@ -809,7 +818,10 @@ a{
         background-color: #f3f6f5 !important;
     }
     .oraga{
-        width: 50%;
+        width: 74%;
+    }
+    #org{
+        margin-top: -15px;
     }
     .b{
         font-size: 12px;
@@ -821,11 +833,14 @@ a{
         background-color: #f3f6f5 !important;
     }
     .slider{
-        top: 7.17%;
+        top: 11.05%;
         width: 480px;
         margin-left: -270px;
         height: 400px;
         left: 76.5%;
+    }
+    .img1{
+        margin-right: 20px;
     }
     #br,
     .sort,
@@ -840,12 +855,16 @@ a{
         display: none;
     }
     .images{
-        width: 450px;
-        height: 350px;
+        width: 500px;
+        height: 425px;
         padding-left: 70px;
         display: flex;
         padding-right: 20px;
         animation: slide-in 20s infinite;
+      }
+      .pg{
+        display: block;
+        color: #afb7ad;
       }
     /*  @keyframes slide-in{
         0%{
@@ -934,6 +953,13 @@ a{
     .i{
         margin-top: 20px;
         margin-left: 0;
+    }
+    .nw{
+        background-color: #fff;
+        margin-left: -12px;
+        padding: 18px;
+        font-size: 18px;
+        width: 69%;
     }
     .fb{
         margin-top: 20px;
