@@ -687,9 +687,9 @@ a{
     color: #0074ba;
     font-size: 14;
 }
-
-
-
+.back{
+    display: none;
+}
 
 
 
@@ -892,6 +892,9 @@ a{
     }
     .counting{
         margin-left: 0;
+        width: 100%;
+        margin-right: 0;
+        font-size: 18px;
     }
     .n1{
         font-size: 14px;
@@ -899,16 +902,21 @@ a{
         justify-content: space-between;
     }
     .div{
-        width: 84%;
+        width: 74%;
     }
     .new{
         margin-top: 20px;
     }
+    .double_para{
+        display: none;
+    }
     .about{
         margin-left: -160px;
+        font-size: 16px;
     }
     .para{
         margin-left: -160px;
+        font-size: 16px;
     }
     .o{
         margin-top: 430px;
@@ -947,6 +955,10 @@ a{
     .i1{
         height: 39px;
     }    
+    .s{
+        font-size: 16px;
+        width: 74%;
+    }
     .i2{
         height: 40px;
     }
@@ -964,8 +976,11 @@ a{
     .fb{
         margin-top: 20px;
         margin-bottom: 30px;
+        margin-left: 45px;
+        margin-right: 45px;
         font-size: 15px;
         font-weight: 600;
+        justify-content: space-between;
     }
     .messeg,
     .conn{
@@ -995,6 +1010,9 @@ a{
     .t{
         font-size: 14px;
         font-weight: 600;
+    }
+    .a{
+        margin-left: -120px;
     }
     .div2{
         display: none;
@@ -1036,8 +1054,14 @@ a{
         display: none;
     }
     .footer{
-        display: inline-block;
-        margin-left: 0;
-        margin-right: 0;
+        text-align: center;
+        margin-left: -115px;
+    }
+    .back{
+        display: block;
+        color: #0074ba;
+        text-align: center;
+        margin-left: -125px;
+        margin-bottom: 30px;
     }
 }
