@@ -172,7 +172,7 @@ header{
 .oraga{
     margin-top: 10px;
     display: flex;
-    border: 1px solid orange;
+    border: 1px solid #d4ded9;
     padding: 8px;
     border-radius: 3px;
 }
@@ -384,14 +384,16 @@ hr{
     display: block;
     color: #707676;
 }
-.counting #modal2:checked ~ .show2{
-    display: none;;
+.counting #modal2:checked ~ .modal-btn2{
+   display: none;
 }
 .counting #modal2:checked ~ .bikroy{
     display: none;
 }
-
-
+#par{
+    margin-left: -150px;
+    font-size: 18px;
+}
 .jobs{
     padding-left: 25px;
     border-left: 2px solid lightgray;
@@ -817,9 +819,20 @@ a{
         padding-bottom: 6px;
         background-color: #f3f6f5 !important;
     }
-    .oraga{
-        width: 74%;
+    .kemon_lage{
+        margin-left: -20px;
+        width: 50%;
     }
+    .tol{
+        display: none;
+    }
+    .oraga{
+        width: 90%;
+    }
+    .oraga:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    } 
     #org{
         margin-top: -15px;
     }
@@ -907,9 +920,6 @@ a{
     .new{
         margin-top: 20px;
     }
-    .double_para{
-        display: none;
-    }
     .about{
         margin-left: -160px;
         font-size: 16px;
@@ -921,7 +931,7 @@ a{
     .o{
         margin-top: 430px;
         margin-left: 0;
-        width: 126%;
+        /* width: 126%; */
     }
     .text{
         font-size: 30px;
@@ -955,8 +965,19 @@ a{
     .i1{
         height: 39px;
     }    
+    #div3{
+        width: 74%;
+        font-size: 14px;
+    }
     .s{
         font-size: 16px;
+        width: 100%;
+        margin-left: -40px;
+    }
+    .ul{
+        margin-left: -40px;
+    }
+    .a{
         width: 74%;
     }
     .i2{
@@ -1061,7 +1082,7 @@ a{
         display: block;
         color: #0074ba;
         text-align: center;
-        margin-left: -125px;
+        margin-left: -330px;
         margin-bottom: 30px;
     }
 }
