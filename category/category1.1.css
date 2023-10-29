@@ -59,7 +59,7 @@ header{
     width: 450px;
     position: absolute;
     border-radius: 4px;
-    top: 9.5%;
+    top: 10.3%;
     left: 48%;
     transform: translate(-40%,-40%);
     /* box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3); */
@@ -83,13 +83,13 @@ header{
     color: #0074ba;
   }
   .images{
-    width: 200px;
+    width: 190px;
     height: 410px;
     padding-left: 70px;
     display: flex;
-  /*  animation: slide-in 30s infinite;*/
+    animation: slide-in 30s infinite;
   }
- /* @keyframes slide-in{
+  @keyframes slide-in{
     0%{
       transform: translateX(0);
     }
@@ -97,18 +97,18 @@ header{
       transform: translateX(0);
     }
     50%{
-      transform: translateX(-214%);
-    }*/
-    /* 60%{
-      transform: translateX(-250%);
-    } */
-    /*75%{
-        transform: translateX(-445%);
+      transform: translateX(-145%);
+    }
+     60%{
+      transform: translateX(-280%);
+    } 
+    75%{
+        transform: translateX(-465%);
     }
     100%{
-        transform: translateX(-665%);
+        transform: translateX(-700%);
     }
-}  */
+}  
 .images img{
   transition: all 0.15s ease;
 } 
@@ -258,7 +258,8 @@ nav{
     padding-top: 7px;
     background-color: #ffffff;
     margin-left: 165px;
-    margin-right: 160px;
+    margin-right: 170px;
+    width: 74.7%;
 }
 hr{
     width: 100%;
@@ -300,7 +301,7 @@ hr{
     height: 6.5vh;
     border: 1px solid gray;
     border-right:none;
-    width: 61.5vh;
+    width: 57vh;
     margin-left: 151px;
     border-top-left-radius: 50px ;
     border-bottom-left-radius: 50px ;
@@ -345,11 +346,13 @@ hr{
     color: #007168;
     margin-top: -8px;
     margin-left: 3px;
+    display: flex;
 }
 .second{
     color: #007168;
     margin-top: -5px;
     padding-left: 103px;
+    display: flex;
 }
 #t1{
     margin-top: -5px;
@@ -573,9 +576,9 @@ a{
 .ml{
     height: 152vh;
     margin-left: 25px;
-    margin-top: -93px;
+    margin-top: -103px;
     width: 1px;
-    background-color: gray;
+    background-color: #e7edee;
 }
 .so{
     margin-left: 15px;
@@ -737,18 +740,19 @@ a{
         display: none;
     }
     .do{
-        padding-left: 0;
+        padding-left: 5px;
         display: block;
         padding-right: 0;
     }
     .navigation{
         width: 8.3%;
         height: 17.5vh;
+        padding-top: 5px;
     }
     .first{
         font-size: 20px;
         display: flex;
-        margin-left: -10px;
+        margin-left: 0;
         margin-top: -18px;
         margin-right: 0;
     }
@@ -757,7 +761,7 @@ a{
         font-size: 20px;
         padding-left: 20px;
         margin-top: -13px;
-        margin-left: 0;
+        margin-left: 29px;
         margin-right: 0;
     }
     .t1{
@@ -768,21 +772,21 @@ a{
         padding-top: 6px;
     }
     #input{
-        height: 5.3vh;
+        height: 6vh;
         width: 40vh;
         font-size: 14px;
-        margin-left: -205px;
+        margin-left: -360px;
         color: lightgrey;
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
-        margin-top: -80px;
+        margin-top: -87px;
     }
     .third{
         display: block;
         font-size: 20px;
         color: #007168;
         margin-top: -18px;
-        margin-left: 0;
+        margin-left: 45px;
     }
     header{
         width: 76.3%;
@@ -797,18 +801,18 @@ a{
     }
     .magnefyne{
         padding: 15px;
-        padding-top: 9px;
+        padding-top: 11px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
-        height: 2.2vh;
-        padding-bottom: 15px;
-        margin-top: -80px;
+        height: 2.9vh;
+        padding-bottom: 13px;
+        margin-top: -87px;
     }
     .button2{
         margin-left: 24px;
-        padding: 8px;
+        padding: 10px;
         margin-right: -12px;
-        margin-top: -20px;
+        margin-top: -10px;
     }
     .mb2{
         font-size: 12px;
@@ -846,7 +850,7 @@ a{
         background-color: #f3f6f5 !important;
     }
     .slider{
-        top: 11.05%;
+        top: 11.3%;
         width: 480px;
         margin-left: -270px;
         height: 400px;
@@ -879,7 +883,7 @@ a{
         display: block;
         color: #afb7ad;
       }
-    /*  @keyframes slide-in{
+      @keyframes slide-in{
         0%{
           transform: translateX(0);
         }
@@ -887,19 +891,18 @@ a{
           transform: translateX(0%);
         }
         50%{
-          transform: translateX(-55%);
+          transform: translateX(-65%);
         }
-        /* 60%{
-          transform: translateX(-250%);
-        } */
-       /* 75%{
-            transform: translateX(-110%);
+         60%{
+          transform: translateX(-135%);
+        } 
+        75%{
+            transform: translateX(-220%);
         }
         100%{
-            transform: translateX(-170%);
+            transform: translateX(-315%);
         }
-    
-    } */
+    } 
     .l{
         display: none;
     }
@@ -989,10 +992,11 @@ a{
     }
     .nw{
         background-color: #fff;
-        margin-left: -12px;
+        margin-left: -17px;
         padding: 18px;
         font-size: 18px;
         width: 69%;
+        margin-right: 10px;
     }
     .fb{
         margin-top: 20px;
