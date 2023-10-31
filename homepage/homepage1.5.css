@@ -421,7 +421,7 @@ counting.pop-up{
     background-color: #f3f6f5;
     padding: 5px;
     border-radius: 5px;
-    height: 24vh;
+    height: 50vh;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -450,6 +450,11 @@ counting.pop-up{
     color: gray;
 }
 .cl{
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    line-height: 1.8;
+}
+.cla{
     font-size: 15px;
     letter-spacing: 0.03em;
     line-height: 1.8;
@@ -825,6 +830,9 @@ a{
         margin-left: 50px;
         text-align: center;
     }
+    .pop-up{
+        margin-top: -40px;
+    }
     .so{
         padding-left: 0;
         padding-bottom: 20px;
@@ -850,21 +858,26 @@ a{
         margin-left: 80px;
     }
     .brows{
+        margin-top: 30px;
         margin-left: 13px;
-        font-size: 24px;
-        color: gray;
+        font-weight: 700;
+        font-size: 14px;
+        color: #2f3432;
     }
     .one,
     .two,
     .three,
     .four{
         display: inline-block;
-        height: 80vh;
-        font-size: 26px;
-        width: 571vh;
+        height: 20vh;
+        font-size: 14px;
+        width: 27.5vh;
         margin-right: 30px;
         padding: 20px;
-        
+        padding-top: 0;   
+    }
+    gr{
+        display: flex;
     }
     .main{
         overflow-x: auto;
@@ -872,36 +885,47 @@ a{
         white-space: nowrap;
         margin-left: 15px;
         margin-right: -350px;
-        margin-top: 40px;
+        margin-top: -10px;
     }
     .gr{
-        display: grid;
-        grid-template-columns: repeat(3);
+        /* display: grid;
+        grid-template-columns: repeat(3); */
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
     }
     .about{
-        font-size: 28px;
-        margin-top: 120px;
+        font-size: 16px;
+        margin-top: 50px;
         margin-left: -170px;
         margin-right: -500px;
+        width: 50vh;
     }
     .cl{
-        font-size: 26px;
+        font-size: 14px;
         margin-left: -170px;
         margin-right: -600px;
+        width: 50vh;
+    }
+    .cla{
+        font-size: 14px;
+        
+        margin-left: -170px;
+        margin-right: -600px;
+        width: 50vh;   
     }
     .show{
-        font-size: 26px;
-        margin-left: 420px;
+        font-size: 14px;
+        margin-left: 120px;
     }
     .less{
-        font-size: 26px;
-        margin-left: 280px;
-
+        font-size: 14px;
+        margin-left: -20px;
     }
     .b{
-        font-size: 26px;
+        font-size: 14px;
         margin-left: -170px;
-        margin-right: -680px;
+        margin-right: -200px;
     }
     .div{
         height: 4px;
@@ -909,6 +933,9 @@ a{
     }
     #mso{
         padding-left: 85px;
+    }
+    ullist{
+        width: 40vh;
     }
     .from{
         display: none;
@@ -948,6 +975,9 @@ a{
         margin-top: -13px;
     }
     .la{
+        display: none;
+    }
+    .vanish{
         display: none;
     }
     .he{
