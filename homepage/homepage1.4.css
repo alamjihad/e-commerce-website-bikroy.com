@@ -187,7 +187,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-left: 220px;
-    margin-right: 143px;
+    margin-right: 145px;
     margin-top: 42px;
 }
 .all{
@@ -381,6 +381,7 @@ counting.pop-up{
 .explore{
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
 }
 .more{
     font-size: 15px;
@@ -394,9 +395,6 @@ counting.pop-up{
     width: 50%;
     margin-left: -10px;
     letter-spacing: 0.03em;
-}
-.explore{
-    padding-left: 10px;
 }
 .main{
     /* display: grid;
@@ -719,7 +717,7 @@ a{
         overflow-y: hidden;
         white-space: nowrap;
         margin-left: 10px;
-        margin-right: -60px;
+        margin-right: -30px;
         margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(16,1fr);
@@ -729,25 +727,26 @@ a{
         padding-left: 15px;
         text-align: center;
         padding-right: 15px;
+        padding-bottom: 22px;
     }
     .icon{
-        font-size: 12px;
+        font-size: 14px;
         padding-top: 7px;
         padding-bottom: 20px;
     }
     .icon1{
         padding-left: 5px;
-        font-size: 12px;
+        font-size: 14px;
         padding-bottom: 20px;
     }
     .icon2{
-        font-size: 12px;
+        font-size: 14px;
         padding-bottom: 20px;
     }
     .iconic{
-        font-size: 12px;
+        font-size: 14px;
         padding-top: 7px;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
     .carec{
         color: #2f3432;
@@ -765,55 +764,90 @@ a{
     .medium{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-left: 0;
+        height: auto;
+        width: 100%;
+        background-color: #f3f6f5;
     }
     .money{
         display: inline-block;
-        margin-left: 0;    
+        background-color: #fff;
+        margin-left: 0;
+        width: 89%;
+        margin-bottom: 30px;
+        height: auto;
+        padding-bottom: 5px;
+        box-shadow: 0 2px 16px 0 rgba(0,0,0,.1);
     }
     .img{
         display: flex;
-        padding-left: 230px;
+        padding-left: 100px;
         height: 180px;
+        padding-bottom: 0;
+        margin-bottom: -60px;
     }
     .h{
-        font-size: 30px;
-        margin-left: 200px;
-        font-weight: 900;
+        font-size: 18px;
+        margin-left: 0;
+        font-weight: 600;
+        margin-bottom: 0;
     }
     .sell{
-        font-size: 25px;
-        font-weight: 500;
-        margin-left: 43px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-left: 0;
+    }
+    .explore{
+        padding-bottom: 15px;
+    }
+    .start{
+        text-align: center;
     }
     .sp{
-        padding-left: 70px;
+        padding-left: 0;
         padding-bottom: 20px;
+    }
+    .jobs{
+        width: 100%;
+        padding-left: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 16px 0 rgba(0,0,0,.1);
     }
     .j{
-        margin-top: 160vh;
-        margin-left: 170px;
+        padding-left: 90px;
     }
     .free{
-        font-size: 26px;
-        padding: 20px;
+        margin-top: 10px;
+        font-size: 14px;
         border-radius: 50px;
-        margin-left: 130px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        margin-left: 50px;
+        text-align: center;
     }
     .so{
-        padding-left: 63px;
+        padding-left: 0;
         padding-bottom: 20px;
+        font-size: 14px;
     }
     .s{
-        margin-left: -60px;
+        margin-left: 0;
+        font-size: 14px;
+        width: 93%;
+        display: inline-block;
+        text-align: center;
     }
     .hire{
-        font-size: 24px;
+        font-size: 14px;
+        text-align: center;
     }
     .more{
-        font-size: 24px;
-        padding: 20px;
+        font-size: 14px;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-radius: 40px;
-        margin-left: 130px;
+        margin-left: 80px;
     }
     .brows{
         margin-left: 13px;
@@ -923,6 +957,9 @@ a{
         padding-left: 9px;
         color: #0074ba;
         display: block;
+    }
+    .ji{
+        display: none;
     }
     .ban{
         display: block;
