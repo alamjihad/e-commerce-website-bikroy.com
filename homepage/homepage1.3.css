@@ -222,7 +222,7 @@ nav{
     margin-left: -17px;
 }
 .text2{
-    margin-left: -23px;
+    margin-left: -11px;
     margin-top: -1px;
 }
 .text3{
@@ -623,6 +623,7 @@ a{
         padding-left: 5px;
         display: block;
         padding-right: 0;
+        margin-top: -2px;
     }
     .do2{
         display: none;
@@ -687,24 +688,28 @@ a{
         margin-top: -11px;
     }
     .browse{
-        font-size: 24px;
-        color: gray;
+        font-size: 14px;
+        color: #2f3232;
         padding-top: 20px;
         margin-left: 13px;
+        margin-top: 0;
+        letter-spacing: 0.0em;
     }
     b{
         margin-left: 0;
     }
     .se{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+        display: flex;
+        padding-top: 12px;
+        margin-left: -5px;
+       /* grid-template-columns: repeat(2,1fr);*/
     }
     .see{
-        padding-top: 50px;
-        font-size: 24px;
+        padding-top: 21px;
+        font-size: 14px;
         color: #0074ba;
         display: block;
-        margin-left: 620px;
+        margin-left: 147px;
     }
     section::-webkit-scrollbar{
         display: none;
@@ -713,8 +718,8 @@ a{
         overflow-x: auto;
         overflow-y: hidden;
         white-space: nowrap;
-        margin-left: 0;
-        margin-right: -500px;
+        margin-left: 10px;
+        margin-right: -60px;
         margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(16,1fr);
@@ -722,26 +727,36 @@ a{
     .all{
         display: inline-block;
         padding-left: 15px;
+        text-align: center;
         padding-right: 15px;
     }
     .icon{
+        font-size: 12px;
         padding-top: 7px;
-        padding-left: 31px;
-        padding-bottom: 39px;
+        padding-bottom: 20px;
+    }
+    .icon1{
+        padding-left: 5px;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .icon2{
+        font-size: 12px;
+        padding-bottom: 20px;
     }
     .iconic{
+        font-size: 12px;
         padding-top: 7px;
-        padding-left: 63px;
-        padding-bottom: 39px;
+        padding-bottom: 20px;
     }
     .carec{
         color: #2f3432;
-        font-size: 24px;
+        font-size: 13px;
         padding-left: 2px;
         padding-bottom: 9px;
     }
     .num{
-        font-size: 24px;
+        font-size: 12px;
         color: #707676;
     }
     .fa-2xl{
