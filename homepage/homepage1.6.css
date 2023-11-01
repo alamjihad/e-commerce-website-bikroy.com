@@ -350,7 +350,7 @@ counting.pop-up{
     display: block;
     color: #707676;
 }
-.counting #modal:checked ~ .show{
+.counting #modal:checked ~ .modal-btn{
     display: none;
 }
 .jobs{
@@ -932,8 +932,7 @@ a{
     }
     .cla{
         font-size: 14px;
-        
-        margin-left: -170px;
+        margin-left: -150px;
         margin-right: -600px;
         width: 50vh;   
     }
@@ -1004,6 +1003,9 @@ a{
     }
     .cd{
         display: none;
+    }
+    .ullist{
+        margin-left: 20px;
     }
     .t{
         font-size: 14px;

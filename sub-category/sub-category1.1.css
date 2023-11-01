@@ -215,8 +215,7 @@ hr{
     display: none;
 }
 .do{
-
-    padding-left: 202px;
+    padding-left: 102px;
 }
 .do2{
     display: none;
@@ -622,23 +621,22 @@ hr{
         padding-left: 20px;
         padding-top: 15px;
     }
-    .oo{
-        margin-left: 310px;
-    }
+    /* .oo{
+        margin-left: 50px;
+    } */
     .message{
         padding-left: 20px;
     }
     .do{
-        padding-left: 12px;
+        padding-left: 10px;
         display: block;
-        padding-right: 0;
     }
     .navigation{
         width: 10%;
         height: 35vh;
     }
     header{
-        width: 600px;
+        width: 400px;
         height: 55px;
     }
     .head,
@@ -735,7 +733,8 @@ hr{
     }   
     .pi2{
         display: block;
-        margin-top: 2px;
+        margin-top: 1px;
+        margin-left: 60px;
     }
     .time{
         margin-left: 375px;
@@ -799,10 +798,10 @@ hr{
         display: block;
         color: #ffffff;
         font-size: 24px;
-        padding-left: 19px;
+        padding-left: 21px;
     }
     .oo{
-        margin-left:  305px;
+        margin-left:  105px;
     }
     .p3,
     .po,
@@ -826,6 +825,15 @@ hr{
     .p32,
     .po2{
         display: block;
+    }
+    .first2{
+        width: 55.7%;
+        margin-top: -4px;
+        padding-left: 7px;
+        padding-top: 8px;
+        padding-bottom: 20px;
+        margin-left: -51px;
+        background-color: #fff;
     }
     .p32{
         font-size: 16px;
