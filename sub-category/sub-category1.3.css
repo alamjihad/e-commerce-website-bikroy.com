@@ -331,6 +331,9 @@ hr{
     font-size: 23px;
     margin-left: 5px;
 }
+.bol{
+    font-family: 'Open Sans', sans-serif;   
+}
 .first{
     display: flex;
     flex-direction: column;
@@ -424,6 +427,9 @@ hr{
     font-weight: 700;
     padding-left: 7px;
 }
+.safe2{
+    display: none;
+}
 .te{
     display: flex;
     flex-direction: column;
@@ -437,7 +443,7 @@ hr{
     border-radius: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 20vh;
+    height: 22vh;
 }
 .i21{
     display: flex;
@@ -447,16 +453,14 @@ hr{
     color: grey;
     padding-top: 35px;
     margin-left: 20px;
-    display: none;
 }
 .le3{
-    margin-left: 35px;
+    margin-left: 20px;
 }
 .le2{    
     color: grey;
     padding-top: 35px;
     margin-left: 290px;
-    display: none;
 }
 .xt{
     margin-top: 10px;
@@ -512,6 +516,7 @@ hr{
     font-size: 14px;
     color: grey;
     margin-left: 20px;
+    margin-top: 15px;
 }
 .description2{
     display: flex;
@@ -531,7 +536,7 @@ hr{
     padding-top: 100px;
 }
 .a1{
-    color: lightgrey;
+    color: #d5e1e6;
     margin-left: 20px;
     position: absolute;
     width: 72.5%;
@@ -542,6 +547,7 @@ hr{
     padding-bottom: 12px;
 }
 .oe{
+    font-family: 'Open Sans', sans-serif;   
     color: #673500;
     background-color: #ffc800;
     border: 1px #ffc800;
@@ -556,12 +562,17 @@ hr{
     font-weight: 900;
 }
 .gr{
+    font-family: 'Open Sans', sans-serif;   
     color: #424e4e;
     font-size: 17px;
     padding-left: 25px;
 }
 .go{
     font-size: 20px;
+}
+.po2{
+    color: #707676;
+    font-weight: 600;
 }
 #t2{
     color: #0074ba;
@@ -730,6 +741,20 @@ hr{
         overflow: hidden;
         display: none;
     }   
+    .safe2{
+        border: 1px solid #4cb0c1;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 15px;
+        display: block;
+        font-size: 12px;
+    }
+    .s,
+    .meet,
+    .tip{
+        font-size: 14px;
+    }
     .pi2{
         display: block;
         margin-top: 1px;
@@ -851,23 +876,31 @@ hr{
     }
     .hr{
         display: block;
-        color: #e7edee;
-        margin-left: 0;
-        width: 82.7%;
+        color: #d5e1e6;
+        margin-left: 62px;
+        width: 69%;
         margin-top: -2px;
     }
     #des{
         color: #000000;
         font-weight: 700;
+        margin-top: 0;
+    }
+    .des{
+        padding-bottom: 7px;
+        margin-left: -12px;
     }
     .tk2{
         font-size: 20px;
         margin-left: 10px;
+        margin-bottom: 0;
+        padding-bottom: 5px;
     }
     .for{
         display: block;
         font-size: 14px;
         margin-left: 10px;
+        color: grey;
     }
     .u{
         margin-left: 215px;
@@ -893,12 +926,8 @@ hr{
         font-size: 14px;
     }
     .u4{
-        padding-top: 10px;
+        padding-top: 0;
         margin-left: -10px;
-    }
-    .des{
-        padding-bottom: 10px;
-        margin-left: -12px;
     }
     .three{
         display: flex;
@@ -908,17 +937,23 @@ hr{
     .oe{
         width: 94%;
         margin-left: 9px;
+        font-size: 14px;
+        font-weight: 600;
     }
     .pri{
         margin-left: 110px;
         font-size: 14px;
+        padding-top: 0;
     }
     .gr{
-        padding-left: 236px;
+        padding-left: 136px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;   
     }
     .a1{
-        margin-left: -1px;
-        width: 56.8%;
+        color: #d5e1e6;
+        margin-left: 12px;
+        width: 52.7%;
     }
     .m{
         display: block;
