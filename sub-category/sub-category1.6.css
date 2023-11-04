@@ -12,22 +12,32 @@ header{
 }
 nav{
     display: flex;
-    height: 79px;
+    height: 63px;
 }
 .head{
     color: #fff;
     display: flex;
 }
+#heads{
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 23px;
+    padding-top: 23px;
+    cursor: pointer;
+}
 .bangla{
     color: #fff;
-    padding-top: 3px;
+    padding-top: 0;
     border: 1px solid #007168;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-left: 31px;
-    margin-top: 19px;
-    margin-bottom: 10px;
-    padding: 7px 14.5px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-right: 12px;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -45,6 +55,14 @@ hr{
     color: #673500;
     border-radius: 5px;
     font-weight: 900;
+    margin-left: 40px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 14.5px;
+    padding-top: 16px;
+    padding-bottom: 14px;
 }
 .input{
     display: flex;
@@ -212,19 +230,29 @@ hr{
     display: none;
 }
 .co{
-    font-size: 15px;
-    padding-top: 4px;
-    padding-left: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 0;
+    padding-left: 11px;
     cursor: pointer;
 }
 .message{
     padding-top: 3px;
 }
+#seg{
+    padding-top: 18px;
+    margin-left:25px
+}
+#mes{
+    padding-top: 0;
+    margin-left: -43px;
+}
 .message2{
     display: none;
 }
 .do{
-    padding-left: 102px;
+    padding-left: 164px;
+    padding-top: 4px;
 }
 .do2{
     display: none;
@@ -648,6 +676,7 @@ hr{
     .do{
         padding-left: 10px;
         display: block;
+        padding-top: 2px;
     }
     .navigation{
         width: 10%;
@@ -685,6 +714,9 @@ hr{
         font-size: 14px;
         padding-bottom: 20px;
         margin-left: -80px;
+    }
+    #heads{
+        display: none;
     }
     .from{
         display: none;
