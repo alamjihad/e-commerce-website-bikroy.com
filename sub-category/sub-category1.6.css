@@ -31,6 +31,9 @@ nav{
     border-radius: 4px;
     cursor: pointer;
 }
+.hr2{
+    display: none;
+}
 .pi2{
     display: none;
 }
@@ -49,6 +52,9 @@ hr{
     align-items: center;
     margin-top: 6.7vh;
     height: 23vh;
+}
+.hr1{
+    display: none;
 }
 .for{
     display: none;
@@ -669,7 +675,8 @@ hr{
         padding-bottom:15px;
     }
     .div{
-        width: 78.3%;
+        margin-top: 20px;
+        width: 90.5%;
     }
     .d{
         margin-left: 170px;
@@ -705,7 +712,7 @@ hr{
     }
     #i{
         margin-top: 15px;
-        width: 91%;
+        width: 91.5%;
     }
     .fb{
         margin-top: 20px;
@@ -736,12 +743,12 @@ hr{
         color: #2f3432;
         font-weight: 700;
         text-align: center;
-        margin-left: -47px;
+        margin-left: -74px;
     }
     .similar{
         margin-left: -5px;
         margin-top: -5px;
-        width: 77.5%;
+        width: 89.9%;
     }
     .si{
         font-size: 14px;
@@ -751,14 +758,16 @@ hr{
         font-size: 14px;
         color: #0074ba;
         padding: 3px;
-        margin-left: -40px;
+        margin-left: -70px;
     }
     .amn{
         color: #707676;
     }
     #t2{
         padding-bottom: 100px;
-        margin-left: -97px;
+        text-align: left;
+        /* margin-left: -100px; */
+        margin-left: 8.5px;
     }
     .li1,
     .li2,
@@ -770,7 +779,7 @@ hr{
         font-size: 14px;
         color: #0074ba;    
         margin-bottom: 20px;
-        margin-left: -55px;
+        margin-left: -88px;
     }
     .pi{
         margin-top: 0;
@@ -819,6 +828,7 @@ hr{
         grid-template-columns: repeat(2,1fr);
         position: fixed;
         bottom: 7px;
+        margin-bottom: 10px;
     }
     .u4{
         font-size: 14px;
@@ -832,10 +842,11 @@ hr{
         color: #ffffff;
         font-size: 18px;
         padding: 8px 15px;
-        margin-left: 5px;
-        padding-left: 115px;
+        margin-left: 4px;
+        margin-right: 5px;
         border-radius: 4px;
-        padding-right: 117px;
+        padding-left: 65.5px;
+        padding-right: 65.5px;
     }
     .i21{
         display: none;
@@ -846,14 +857,15 @@ hr{
         color: #ffffff;
         font-size: 18px;
         padding: 8px 15px;
-        margin-right: 5px;
-        padding-left: 115px;
-        padding-right: 117px;
+        margin-left: 5px;
+        margin-right: 4px;
+        padding-left: 65.5px;
+        padding-right: 65.5px;
         border-radius: 4px;
     }
     .content{
         margin-left: -5px;
-        width: 79%;
+        width: 89.9%;
         background-color: #ffffff;
     }
     .elements{
@@ -866,8 +878,8 @@ hr{
         display: none;
     }
     .footer{
-        width:75.7%;
-        margin-left: 0;
+        width:89%;
+        margin-left: -6px;
         padding-left: 5px;
         justify-content: center;
         text-align: center;
@@ -915,7 +927,7 @@ hr{
         display: block;
     }
     .first2{
-        width: 74.6%;
+        width: 73.9%;
         margin-top: -4px;
         margin-left: 44px;
         padding-left: 7px;
@@ -935,7 +947,7 @@ hr{
         display: block;
         color: #d5e1e6;
         margin-left: 62px;
-        width: 69.5%;
+        width: 69.3%;
         margin-top: -2px;
     }
     #des{
@@ -1010,19 +1022,33 @@ hr{
     .a1{
         color: #d5e1e6;
         margin-left: 12px;
-        width: 71.5%;
+        width: 82.1%;
     }
     .m{
         display: block;
-        background-color: #e7edee;
-        width: 78%;
+        /* background-color: #e7edee; */
+        background-color: #f3f6f5;
+        width: 90.5%;
         margin-left: -7px;
         
     }
     .popular{
-        padding-left: 7px;
+        padding-left: 13px;
         background-color: #f3f6f5;
         border-top: 1px #d3d4d9;
-        padding-right: 7px;
+        padding-right: 15px;
+    }
+    .hr1{
+        color: #f3f5f6;
+        background-color: #f3f6f5;
+        display: block;
+        margin-left: 13px;
+        width: 94%;
+    }
+    .hr2{
+        display: block;
+        color: #d5e1e6;
+        margin-left: -152px;
+        width: 197.5%;
     }
 }
