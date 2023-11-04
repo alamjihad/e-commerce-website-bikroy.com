@@ -131,6 +131,13 @@ hr{
 .fb{
     display: flex;
 }
+.u1,
+.u2,
+.u3,
+.u{
+    padding-left: 10px;
+    color: #2f3432;
+}
 .t{
     color: #3b5999;
     font-weight: 700;
@@ -254,6 +261,11 @@ hr{
     padding-left: 164px;
     padding-top: 4px;
 }
+#des{
+    font-size: 14px;
+    font-weight: 800;
+    color: #2f3432;
+}
 .do2{
     display: none;
 }
@@ -364,11 +376,13 @@ hr{
     color: #424e4e;
 }
 .p3{
-    margin-top: 12px;
+    margin-top: 7px;
     font-size: 23px;
-    margin-left: 5px;
+    margin-left: 4px;
 }
 .bol{
+    font-weight: 700;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;   
 }
 .first{
@@ -377,7 +391,7 @@ hr{
 }
 .po{
     font-size: 14px;
-    margin-top: -7px;
+    margin-top: -9px;
     padding-top: 0;
     color: #707676;
     margin-left: 5px;
@@ -387,7 +401,7 @@ hr{
     margin: 10px;
 }
 .two{
-    padding-left: 22px;
+    padding-left: 20px;
 }
 .on:hover~.card{
     display: block;
@@ -411,13 +425,13 @@ hr{
 .tw{
     margin-top: 10px;
     margin-right: 0;
-    padding-left: 501.5px;
+    padding-left: 497px;
 }
 .mi{
     background-color: #e7edee;
-    margin-left: 16px;
+    margin-left: 12.5px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .on,
 .two{
@@ -436,7 +450,7 @@ hr{
 .content{
     background-color: #ffffff;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -5px;
     border-radius: 3px;
     margin-right: 151px;
 }
@@ -542,8 +556,9 @@ hr{
     display: inline-block;
 }
 .tk2{
+    margin-top: 11px;
     color: #009877;
-    font-size: 30px;
+    font-size: 24px;
     margin-left: 19px;
     padding-bottom: 15px;
 }
@@ -573,10 +588,10 @@ hr{
     padding-top: 100px;
 }
 .a1{
-    color: #d5e1e6;
+    color: #d5e5e6;
     margin-left: 20px;
     position: absolute;
-    width: 72.5%;
+    width: 64%;
     margin-top: 0;
 }
 .three{
@@ -593,7 +608,7 @@ hr{
     padding-right: 15px;
     border-radius: 3px;
     margin-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 13px;
     font-size: 17px;
     margin-top: 5px;
     font-weight: 900;
@@ -601,7 +616,7 @@ hr{
 .gr{
     font-family: 'Open Sans', sans-serif;   
     color: #424e4e;
-    font-size: 17px;
+    font-size: 14px;
     padding-left: 25px;
 }
 .go{
@@ -629,13 +644,16 @@ hr{
     font-weight: 700;
     font-size: 17px;
 }
-.pri,
-.des,
-.u4{
-    font-size: 17px;
-    line-height: 2;
+.pri{
+    font-size: 15px;
 }
-
+.des{
+    font-size: 14px;
+}
+.u4{
+    font-size: 14px;
+    line-height: 1.8;
+}
 
 
 
@@ -815,7 +833,6 @@ hr{
         margin-left: -88px;
     }
     .pi{
-        margin-top: 0;
         height: 250px;
         width: 175px;
         overflow: hidden;
