@@ -267,6 +267,9 @@ nav{
     font-weight: 700;
     letter-spacing: 0.01em;
 }
+a{
+    text-decoration: none;
+}
 .carec{
     padding-top: -25px;
     color: #2f3432;

@@ -698,6 +698,9 @@ a{
 .back{
     display: none;
 }
+a{
+    text-decoration: none;
+}
 
 
 
