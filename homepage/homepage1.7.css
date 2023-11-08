@@ -1,5 +1,15 @@
+/* @font-face{
+    font-family: jihad;
+    src: url('../font/fonts/Bold.ttf');
+    src: url('../font/fonts/ExtraBold.ttf');
+    src: url('../font/fonts/Light.ttf');
+    src: url('../font/fonts/Medium.ttf');
+    src: url('../font/fonts/Regular.ttf');
+    src: url('../font/fonts/SemiBold.ttf');
+} */
 body{
     font-family: 'Open Sans', sans-serif;  
+    /* font-family: jihad; */
 }
 header{
     background-color: #149777;
@@ -803,7 +813,7 @@ a{
     .money{
         display: inline-block;
         background-color: #fff;
-        margin-left: 0;
+        margin-left: 15px;
         width: 89%;
         margin-bottom: 30px;
         height: auto;
