@@ -96,16 +96,16 @@ header{
     0%{
       transform: translateX(0);
     }
-    25%{
+    10%{
       transform: translateX(0);
     }
-    50%{
+    30%{
       transform: translateX(-145%);
     }
      60%{
       transform: translateX(-280%);
     } 
-    75%{
+    80%{
         transform: translateX(-465%);
     }
     100%{
