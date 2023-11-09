@@ -520,7 +520,8 @@ hr{
     font-size: 14px;
 }
 a{
-    color: blue;
+    text-decoration: none;
+    color: black;
     display: inline-block;
 }
 .di{
