@@ -90,7 +90,7 @@ header{
     height: 410px;
     padding-left: 70px;
     display: flex;
-    animation: slide-in 30s infinite;
+    animation: slide-in 20s infinite;
   }
   @keyframes slide-in{
     0%{
@@ -99,13 +99,13 @@ header{
     10%{
       transform: translateX(0);
     }
-    30%{
+    19%{
       transform: translateX(-145%);
     }
-     60%{
+    45%{
       transform: translateX(-280%);
     } 
-    80%{
+    70%{
         transform: translateX(-465%);
     }
     100%{
