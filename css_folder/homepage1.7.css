@@ -346,8 +346,8 @@ a{
     font-size: 15px;
 }
 #modal {
-    display: block;
     visibility: hidden;
+    display: none;
 }
 counting.pop-up{
     visibility: hidden;
